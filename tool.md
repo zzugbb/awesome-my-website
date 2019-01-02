@@ -1,5 +1,6 @@
 ## 资料网站
 
+* [前端入门和进阶学习笔记](https://github.com/smyhvae/Web)
 * [问题查找、技术新闻、技术博客、开源社区、英文提升、新奇的玩意儿、视频教程、在线工具等](https://github.com/sdmg15/Best-websites-a-programmer-should-visit)
 * [GitHub上有趣、入门级的开源项目](https://github.com/521xueweihan/HelloGitHub)
 * [js算法](https://github.com/trekhleb/javascript-algorithms)
@@ -74,3 +75,7 @@
 * [JS 项目的源代码显示为一座城市](https://github.com/aserg-ufmg/JSCity)
 * [各种钟表代码收集](https://github.com/a-jie/clock-shop)
 * [接口管理工具RAP第二代](https://github.com/thx/rap2-delos)
+
+## VSCode
+
+* [同步VSCode配置](https://github.com/shanalikhan/code-settings-sync)
