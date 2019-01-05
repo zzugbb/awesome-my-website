@@ -74,6 +74,7 @@
 
 * [JS 项目的源代码显示为一座城市](https://github.com/aserg-ufmg/JSCity)
 * [各种钟表代码收集](https://github.com/a-jie/clock-shop)
+* [验证码识别器](https://github.com/ringcrl/recognition)
 * [接口管理工具RAP第二代](https://github.com/thx/rap2-delos)
 
 ## VSCode
