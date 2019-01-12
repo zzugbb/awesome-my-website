@@ -51,6 +51,7 @@
 
 * [博客评论插件](https://github.com/gitalk/gitalk)
 * [hexo博客主题](https://github.com/Fechin/hexo-theme-diaspora)
+* [hexo主题-功能更强](https://github.com/dongyuanxin/theme-bmw)
 
 ## 视频相关
 
@@ -76,6 +77,8 @@
 * [各种钟表代码收集](https://github.com/a-jie/clock-shop)
 * [验证码识别器](https://github.com/ringcrl/recognition)
 * [接口管理工具RAP第二代](https://github.com/thx/rap2-delos)
+* [表格生成的js库](https://github.com/olifolkerd/tabulator)
+* [mac各种软件](https://github.com/jaywcjlove/awesome-mac)
 
 ## VSCode
 
