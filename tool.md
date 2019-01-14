@@ -7,6 +7,7 @@
 * [es6](https://github.com/ruanyf/es6tutorial)
 * [css collection](https://github.com/AllThingsSmitty/css-protips)
 * [经典编程书籍大全](https://github.com/jobbole/awesome-programming-books)
+* [每日时报](https://github.com/wubaiqing/zaobao/)
 
 ## 规范
 
