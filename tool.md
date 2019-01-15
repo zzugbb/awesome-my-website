@@ -75,6 +75,7 @@
 ## 乱七八糟
 
 * [JS 项目的源代码显示为一座城市](https://github.com/aserg-ufmg/JSCity)
+* [一组匹配中国大陆手机号码的正则表达式](https://github.com/VincentSit/ChinaMobilePhoneNumberRegex/blob/master/README-CN.md)
 * [各种钟表代码收集](https://github.com/a-jie/clock-shop)
 * [验证码识别器](https://github.com/ringcrl/recognition)
 * [接口管理工具RAP第二代](https://github.com/thx/rap2-delos)
