@@ -11,6 +11,7 @@
 
 * [图片滚动缩略预览](https://github.com/malihu/thumbnail-scroller)
 * [表格生成的js库](https://github.com/olifolkerd/tabulator)
+* [一键分享](https://github.com/overtrue/share.js)
 
 ## 工具
 

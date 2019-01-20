@@ -35,6 +35,7 @@
 ## 博客相关
 
 * [博客评论插件](https://github.com/gitalk/gitalk)
+* [博客评论插件 Valine 扩展和增强 Valine-Admin](https://github.com/DesertsP/Valine-Admin)
 * [hexo博客主题](https://github.com/Fechin/hexo-theme-diaspora)
 * [hexo主题-功能更强](https://github.com/dongyuanxin/theme-bmw)
 
