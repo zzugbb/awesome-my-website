@@ -53,3 +53,7 @@
 ## VSCode
 
 * [同步VSCode配置](https://github.com/shanalikhan/code-settings-sync)
+
+## 音乐
+
+[音乐搜索器 - 多站合一音乐搜索解决方案](https://github.com/maicong/music)
