@@ -42,6 +42,7 @@
 ## 桌面应用
 
 * [前端知识开发桌面应用-electron](https://github.com/electron/electron)
+* [静态博客写作客户端-基于electron](https://github.com/hve-notes/hve-notes)
 
 ## 乱七八糟
 
@@ -53,6 +54,7 @@
 ## VSCode
 
 * [同步VSCode配置](https://github.com/shanalikhan/code-settings-sync)
+* [VS Code 编辑器官方快捷键查图汉化版](https://github.com/Sugar250/Visual-Studio-Code-Keymap-CN)
 
 ## 音乐
 
