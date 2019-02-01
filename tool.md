@@ -5,6 +5,7 @@
 * [GitHub上有趣、入门级的开源项目](https://github.com/521xueweihan/HelloGitHub)
 * [经典编程书籍大全](https://github.com/jobbole/awesome-programming-books)
 * [每日时报](https://github.com/wubaiqing/zaobao/)
+* [GitHubDaily--GitHub 优秀的开源项目分享](https://github.com/GitHubDaily/GitHubDaily)
 
 ## 规范
 
