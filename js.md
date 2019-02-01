@@ -40,3 +40,7 @@
 ## 乱七八糟
 
 * [JS 项目的源代码显示为一座城市](https://github.com/aserg-ufmg/JSCity)
+
+## 编译工具
+
+* [swc-babel速度慢， Rust 语言重写了一遍，提升编译速度](https://github.com/swc-project/swc)

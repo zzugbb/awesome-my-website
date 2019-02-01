@@ -51,6 +51,7 @@
 * [验证码识别器](https://github.com/ringcrl/recognition)
 * [接口管理工具RAP第二代](https://github.com/thx/rap2-delos)
 * [mac各种软件](https://github.com/jaywcjlove/awesome-mac)
+* [countly-server-开源的网站统计后端，带有 Web 界面](https://github.com/Countly/countly-server)
 
 ## VSCode
 
