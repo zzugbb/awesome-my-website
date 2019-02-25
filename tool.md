@@ -6,6 +6,7 @@
 * [经典编程书籍大全](https://github.com/jobbole/awesome-programming-books)
 * [每日时报](https://github.com/wubaiqing/zaobao/)
 * [GitHubDaily--GitHub 优秀的开源项目分享](https://github.com/GitHubDaily/GitHubDaily)
+* [前端周刊](https://github.com/tower1229/frontend-weekly)
 
 ## 规范
 
@@ -61,4 +62,4 @@
 
 ## 音乐
 
-[音乐搜索器 - 多站合一音乐搜索解决方案](https://github.com/maicong/music)
+* [音乐搜索器 - 多站合一音乐搜索解决方案](https://github.com/maicong/music)
