@@ -16,6 +16,7 @@
 
 * [谷歌插件，计算github仓库大小](https://github.com/harshjv/github-repo-size)
 * [github 表情列表](https://github.com/caiyongji/emoji-list)
+* [支持 Android、iOS、Web、Desktop 的 GitHub 管理通知客户端](https://github.com/devhubapp/devhub)
 
 ## Markdown
 
@@ -45,6 +46,7 @@
 
 * [前端知识开发桌面应用-electron](https://github.com/electron/electron)
 * [静态博客写作客户端-基于electron](https://github.com/hve-notes/hve-notes)
+* [桌面下载工具-采用 Vue + VueX + Element 的技术架构适合学习桌面应用开发](https://github.com/agalwood/Motrix)
 
 ## 乱七八糟
 
@@ -63,3 +65,7 @@
 ## 音乐
 
 * [音乐搜索器 - 多站合一音乐搜索解决方案](https://github.com/maicong/music)
+
+## 语法高亮
+
+* [js编写的代码语法高亮库](https://github.com/ccampbell/rainbow)
