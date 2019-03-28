@@ -56,11 +56,14 @@
 * [mac各种软件](https://github.com/jaywcjlove/awesome-mac)
 * [countly-server-开源的网站统计后端，带有 Web 界面](https://github.com/Countly/countly-server)
 * [抓取页面生成pdf](https://github.com/GoogleChrome/puppeteer)
+* [程序员如何优雅的挣零花钱？](https://github.com/easychen/howto-make-more-money)
+* [不同编程语言的 Web 框架性能对比](https://github.com/the-benchmarker/web-frameworks)
 
 ## VSCode
 
 * [同步VSCode配置](https://github.com/shanalikhan/code-settings-sync)
 * [VS Code 编辑器官方快捷键查图汉化版](https://github.com/Sugar250/Visual-Studio-Code-Keymap-CN)
+* [VS Code 编辑器中，练习 LeetCode 习题的插件](https://github.com/jdneo/vscode-leetcode)
 
 ## 音乐
 
@@ -69,3 +72,8 @@
 ## 语法高亮
 
 * [js编写的代码语法高亮库](https://github.com/ccampbell/rainbow)
+* [高逼格的具有编程连字的等宽字体](https://github.com/tonsky/FiraCode)
+
+## 谷歌
+
+* [Chrome插件英雄榜](https://github.com/zhaoolee/ChromeAppHeroes)
