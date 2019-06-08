@@ -7,6 +7,8 @@
 * [每日时报](https://github.com/wubaiqing/zaobao/)
 * [GitHubDaily--GitHub 优秀的开源项目分享](https://github.com/GitHubDaily/GitHubDaily)
 * [前端周刊](https://github.com/tower1229/frontend-weekly)
+* [各种主题的awesome](https://github.com/sindresorhus/awesome)
+* [前端各种JS框架，Web组件库和后台管理模板](https://github.com/jaywcjlove/awesome-uikit)
 
 ## 规范
 
