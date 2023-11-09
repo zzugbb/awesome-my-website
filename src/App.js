@@ -1,5 +1,8 @@
 import { HashRouter, Routes, Route } from "react-router-dom";
 import TopLayout from "./layout/topLayout";
+
+import Study from "./pages/study";
+
 import FooterLayout from "./layout/footerLayout";
 
 function App() {
@@ -7,6 +10,7 @@ function App() {
     <HashRouter>
       <TopLayout/>
       <Routes>
+        <Route path="/" element={<Study />} />
       </Routes>
       <FooterLayout/>
     </HashRouter>

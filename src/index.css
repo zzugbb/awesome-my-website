@@ -102,9 +102,43 @@ textarea {
 /* TopLayout */
 
 .top-div {
-  height: 54px;
-  background-color: red;
+  height: 64px;
+  background-color: #fff;
+  box-shadow: 5px 5px 5px #1919192b;
 }
+
+.top-div-main {
+  height: 64px;
+  width: 1500px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.logo-div {
+  margin-left: 80px;
+  flex-grow: 0;
+  width: 270px;
+}
+
+.top-ul {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-ul li {
+  flex-grow: 0;
+  width: 100px;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* main */
+.main-div {
+  min-height: calc(100vh - 164px);
+}
+
 
 /* bottomLayout */
 
