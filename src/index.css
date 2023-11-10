@@ -132,6 +132,21 @@ textarea {
   width: 100px;
   text-align: center;
   cursor: pointer;
+  line-height: 60px;
+  font-size: 16px;
+  color: #546681;
+  font-weight: 600;
+  border-bottom: #fff solid 4px;
+}
+
+.top-ul li:hover {
+  color: #0070e0;
+  border-bottom: #0070e0 solid 4px;
+}
+
+.top-ul .current-li {
+  color: #0070e0;
+  border-bottom: #fff solid 4px;
 }
 
 /* main */

@@ -1,13 +1,13 @@
 import React from 'react';
 
-function Study() {
+function Tool() {
 
   return (
     <div className='main-div'>
-      <p>study</p>
+       <p>tool</p>
     </div>
   );
 }
 
 
-export default Study;
+export default Tool;
