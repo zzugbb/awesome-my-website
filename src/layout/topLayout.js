@@ -1,12 +1,22 @@
-import React, { useState } from 'react';
-import { useNavigate } from "react-router-dom";
+import React, { useState, useEffect } from 'react';
+import { useNavigate, useLocation } from "react-router-dom";
 import logo from '../asset/img/logo.png';
+import IconFont from '../components/icon';
 
 function TopLayout() {
 
   const navigate = useNavigate();
+  const location = useLocation();
 
   const [currentMenu, setCurrentMenu] = useState('study');
+
+  useEffect(() => {
+    if (location.pathname === '/') {
+      setCurrentMenu('study');
+    } else {
+      setCurrentMenu(location.pathname.replace('/', ''));
+    }
+  }, [location]);
 
   const handleClickMenu = (e) => {
     setCurrentMenu(e);
@@ -25,22 +35,22 @@ function TopLayout() {
         </div>
         <ul className='top-ul'>
           <li onClick={() => handleClickMenu('study')} className={currentMenu === 'study' ? 'current-li' : ''}>
-            <span>学习资源</span>
+            <span><IconFont style={{fontSize:'20px',marginRight:'6px'}} type="icon-study1"></IconFont>学习资源</span>
           </li>
           <li onClick={() => handleClickMenu('tool')} className={currentMenu === 'tool' ? 'current-li' : ''}>
-            <span>工具网站</span>
+            <span><IconFont style={{fontSize:'20px',marginRight:'6px'}} type="icon-tools1"></IconFont>工具网站</span>
+          </li>
+          <li onClick={() => handleClickMenu('deploy')} className={currentMenu === 'deploy' ? 'current-li' : ''}>
+            <span><IconFont style={{fontSize:'20px',marginRight:'6px'}} type="icon-liuchengbushu"></IconFont>搭建部署</span>
           </li>
           <li>
-            <span>搭建部署</span>
+            <span><IconFont style={{fontSize:'20px',marginRight:'6px'}} type="icon-shenghuoyule"></IconFont>生活娱乐</span>
           </li>
           <li>
-            <span>生活娱乐</span>
+            <span><IconFont style={{fontSize:'20px',marginRight:'6px'}} type="icon-qita"></IconFont>乱七八糟</span>
           </li>
           <li>
-            <span>乱七八糟</span>
-          </li>
-          <li>
-            <span>关于我的</span>
+            <span><IconFont style={{fontSize:'20px',marginRight:'6px'}} type="icon-guanyu1"></IconFont>关于我的</span>
           </li>
         </ul>
       </div>

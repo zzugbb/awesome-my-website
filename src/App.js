@@ -3,6 +3,7 @@ import TopLayout from "./layout/topLayout";
 
 import Study from "./pages/study";
 import Tool from "./pages/tool";
+import Deploy from "./pages/deploy";
 
 import FooterLayout from "./layout/footerLayout";
 
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Study />} />
         <Route path="/tool" element={<Tool />} />
+        <Route path="/deploy" element={<Deploy />} />
       </Routes>
       <FooterLayout/>
     </HashRouter>
