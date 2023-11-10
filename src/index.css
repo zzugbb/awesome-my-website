@@ -159,5 +159,13 @@ textarea {
 
 .bottom-div {
   height: 100px;
-  background-color: green;
+  background-color: #f5f5ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.bottom-div p {
+  line-height: 35px;
 }
