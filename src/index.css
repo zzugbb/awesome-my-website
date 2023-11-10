@@ -97,6 +97,10 @@ textarea {
   -webkit-box-orient:vertical;
   -webkit-line-clamp:2;
 }
+
+body {
+  background-color: #f5f5f5;
+}
 /*  reset.css end */
 
 /* TopLayout */
@@ -151,15 +155,38 @@ textarea {
 
 /* main */
 .main-div {
-  min-height: calc(100vh - 164px);
+  min-height: calc(100vh - 196px);
+  width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+  display: flex;
 }
 
+.main-div-left {
+  width: 300px;
+}
+
+.main-div-right {
+  width: 900px;
+}
+
+.main-div-right-item {
+  line-height: 40px;
+  width: 162px;
+}
+
+.main-div-right-item img {
+  width: 20px;
+  height: 20px;
+  vertical-align: text-top;
+  margin-right: 5px;
+}
 
 /* bottomLayout */
 
 .bottom-div {
   height: 100px;
-  background-color: #f5f5ff;
+  background-color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
