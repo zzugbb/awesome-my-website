@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Anchor } from 'antd';
 import { Card, Space, Typography } from 'antd';
 import rapPng from '../asset/img/rap-logo.png';
+import githubPng from '../asset/img/github-logo.png';
 
 function Tool() {
 
@@ -13,7 +14,7 @@ function Tool() {
       href: '#front-github',
       title: 'Github收集',
       subData: [{
-        imgSrc: 'https://github.githubassets.com/favicons/favicon.svg',
+        imgSrc: githubPng,
         linkSrc: 'https://github.com/caiyongji/emoji-list',
         title: 'Github表情列表',
       }, {
@@ -64,7 +65,7 @@ function Tool() {
       href: '#front-regex',
       title: '正则表达',
       subData: [{
-        imgSrc: 'https://github.githubassets.com/favicons/favicon.svg',
+        imgSrc: githubPng,
         linkSrc: 'https://github.com/VincentSit/ChinaMobilePhoneNumberRegex/blob/master/README-CN.md',
         title: '大陆手机号',
       }]
@@ -97,12 +98,12 @@ function Tool() {
           {
             data.map((item)=>{
               return (
-                <Card size="small" title={item.title} id={item.href.replace('#','')}>
+                <Card size="small" title={item.title} id={item.href.replace('#','')} key={item.href}>
                   <Space size={[16, 16]} wrap>
                     {
                       item.subData.map((childrenItem)=>{
                         return (
-                          <div className='main-div-right-item' id={childrenItem.linkSrc}>
+                          <div className='main-div-right-item' key={childrenItem.linkSrc}>
                             <img src={childrenItem.imgSrc} alt={childrenItem.title}></img>
                             <Link href={childrenItem.linkSrc} target="_blank">{childrenItem.title}</Link>
                           </div>

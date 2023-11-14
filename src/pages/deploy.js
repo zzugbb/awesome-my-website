@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Anchor } from 'antd';
 import { Card, Space, Typography } from 'antd';
+import githubPng from '../asset/img/github-logo.png';
 
 function Deploy() {
 
@@ -16,7 +17,7 @@ function Deploy() {
         linkSrc: 'https://create-react-app.bootcss.com/docs/deployment#github-pages',
         title: 'React deployment',
       }, {
-        imgSrc: 'https://github.githubassets.com/favicons/favicon.svg',
+        imgSrc: githubPng,
         linkSrc: 'https://github.com/gitname/react-gh-pages',
         title: 'react-gh-pages',
       }, {
@@ -33,15 +34,15 @@ function Deploy() {
         linkSrc: 'https://hexo.io/zh-cn/',
         title: 'Hexo 博客框架',
       }, {
-        imgSrc: 'https://github.githubassets.com/favicons/favicon.svg',
+        imgSrc: githubPng,
         linkSrc: 'https://github.com/gitalk/gitalk/blob/master/readme-cn.md',
         title: 'Gitalk 评论插件',
       }, {
-        imgSrc: 'https://github.githubassets.com/favicons/favicon.svg',
+        imgSrc: githubPng,
         linkSrc: 'https://github.com/Fechin/hexo-theme-diaspora',
         title: 'theme-diaspora',
       }, {
-        imgSrc: 'https://github.githubassets.com/favicons/favicon.svg',
+        imgSrc: githubPng,
         linkSrc: 'https://github.com/dongyuanxin/theme-bmw',
         title: 'theme-bmw',
       }]
@@ -65,12 +66,12 @@ function Deploy() {
           {
             data.map((item)=>{
               return (
-                <Card size="small" title={item.title} id={item.href.replace('#','')}>
+                <Card size="small" title={item.title} id={item.href.replace('#','')} key={item.href}>
                   <Space size={[16, 16]} wrap>
                     {
                       item.subData.map((childrenItem)=>{
                         return (
-                          <div className='main-div-right-item' id={childrenItem.linkSrc}>
+                          <div className='main-div-right-item' key={childrenItem.linkSrc}>
                             <img src={childrenItem.imgSrc} alt={childrenItem.title}></img>
                             <Link href={childrenItem.linkSrc} target="_blank">{childrenItem.title}</Link>
                           </div>

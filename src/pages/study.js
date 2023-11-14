@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Anchor } from 'antd';
 import { Card, Space, Typography } from 'antd';
 import mockPng from '../asset/img/mock-logo.png';
+import githubPng from '../asset/img/github-logo.png';
 
 function Study() {
 
@@ -17,7 +18,7 @@ function Study() {
         linkSrc: 'https://github.com/521xueweihan/HelloGitHub',
         title: 'HelloGitHub',
       }, {
-        imgSrc: 'https://github.githubassets.com/favicons/favicon.svg',
+        imgSrc: githubPng,
         linkSrc: 'https://github.com/jobbole/awesome-programming-books',
         title: '经典编程书籍大全',
       }, {
@@ -25,7 +26,7 @@ function Study() {
         linkSrc: 'https://github.com/jaywcjlove/awesome-uikit',
         title: 'JS框架, Web组件库',
       }, {
-        imgSrc: 'https://github.githubassets.com/favicons/favicon.svg',
+        imgSrc: githubPng,
         linkSrc: 'https://web.qianguyihao.com/',
         title: '千古前端图文教程',
       }]
@@ -47,7 +48,7 @@ function Study() {
       href: '#front-js',
       title: 'JavaScript',
       subData: [{
-        imgSrc: 'https://github.githubassets.com/favicons/favicon.svg',
+        imgSrc: githubPng,
         linkSrc: 'https://github.com/trekhleb/javascript-algorithms/blob/master/README.zh-CN.md',
         title: 'JS-算法',
       }, {
@@ -69,7 +70,7 @@ function Study() {
       href: '#front-react',
       title: 'React',
       subData: [{
-        imgSrc: 'https://github.githubassets.com/favicons/favicon.svg',
+        imgSrc: githubPng,
         linkSrc: 'https://github.com/adam-golab/react-developer-roadmap',
         title: 'React 学习路线',
       }]
@@ -83,11 +84,11 @@ function Study() {
       href: '#front-vue',
       title: 'Vue',
       subData: [{
-        imgSrc: 'https://github.githubassets.com/favicons/favicon.svg',
+        imgSrc: githubPng,
         linkSrc: 'https://github.com/bailicangdu/vue2-elm',
         title: 'DEMO-Vue2 elm',
       }, {
-        imgSrc: 'https://github.githubassets.com/favicons/favicon.svg',
+        imgSrc: githubPng,
         linkSrc: 'https://github.com/uncleLian/vue2-echo',
         title: 'DEMO-Vue2-echo',
       }]
@@ -104,7 +105,7 @@ function Study() {
         linkSrc: 'https://giojs.org/index_zh.html',
         title: 'Gio.js 地球可视化',
       }, {
-        imgSrc: 'https://github.githubassets.com/favicons/favicon.svg',
+        imgSrc: githubPng,
         linkSrc: 'https://bestvist.github.io/axial3d/demo/',
         title: 'Axial3d 轴动效果',
       }]
@@ -126,15 +127,15 @@ function Study() {
       href: '#front-Wechat',
       title: '微信小程序',
       subData: [{
-        imgSrc: 'https://github.githubassets.com/favicons/favicon.svg',
+        imgSrc: githubPng,
         linkSrc: 'https://github.com/imageslr/weapp-library',
         title: 'DEMO-借书平台',
       }, {
-        imgSrc: 'https://github.githubassets.com/favicons/favicon.svg',
+        imgSrc: githubPng,
         linkSrc: 'https://github.com/nslogx/Gitter',
         title: 'DEMO-GitHub小程序',
       }, {
-        imgSrc: 'https://github.githubassets.com/favicons/favicon.svg',
+        imgSrc: githubPng,
         linkSrc: 'https://github.com/RebeccaHanjw/weapp-wechat-zhihu',
         title: 'DEMO-知乎',
       }]
@@ -158,12 +159,12 @@ function Study() {
           {
             data.map((item)=>{
               return (
-                <Card size="small" title={item.title} id={item.href.replace('#','')}>
+                <Card size="small" title={item.title} id={item.href.replace('#','')} key={item.href}>
                   <Space size={[16, 16]} wrap>
                     {
                       item.subData.map((childrenItem)=>{
                         return (
-                          <div className='main-div-right-item' id={childrenItem.linkSrc}>
+                          <div className='main-div-right-item' key={childrenItem.linkSrc}>
                             <img src={childrenItem.imgSrc} alt={childrenItem.title}></img>
                             <Link href={childrenItem.linkSrc} target="_blank">{childrenItem.title}</Link>
                           </div>
