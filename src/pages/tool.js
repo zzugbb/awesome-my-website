@@ -1,13 +1,122 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { Anchor } from 'antd';
+import { Card, Space, Typography } from 'antd';
 
 function Tool() {
 
+  const { Link } = Typography;
+
+  const [data] = useState([
+    {
+      key: 'front-github',
+      href: '#front-github',
+      title: 'Github收集',
+      subData: [{
+        imgSrc: 'https://github.githubassets.com/favicons/favicon.svg',
+        linkSrc: 'https://github.com/caiyongji/emoji-list',
+        title: 'Github表情列表',
+      }, {
+        imgSrc: 'https://devhubapp.com/static/logo.png',
+        linkSrc: 'https://devhubapp.com/',
+        title: 'Github客户端',
+      }, {
+        imgSrc: 'https://wangchujiang.com/awesome-mac/logo.svg',
+        linkSrc: 'https://github.com/jaywcjlove/awesome-mac',
+        title: 'Mac 软件收集',
+      }, {
+        imgSrc: 'https://drawcall.github.io/clock-shop/favicon.ico',
+        linkSrc: 'https://github.com/drawcall/clock-shop',
+        title: '各种各样钟表',
+      }, {
+        imgSrc: 'http://rap2.taobao.org/favicon.png',
+        linkSrc: 'https://github.com/thx/rap2-delos',
+        title: '接口管理工具RAP',
+      }]
+    }, {
+      key: 'front-Vscode&chrome',
+      href: '#front-Vscode&chrome',
+      title: 'Vscode&Chrome',
+      subData: [{
+        imgSrc: 'https://raw.githubusercontent.com/LeetCode-OpenSource/vscode-leetcode/master/resources/LeetCode.png',
+        linkSrc: 'https://github.com/LeetCode-OpenSource/vscode-leetcode',
+        title: 'Vscode-LeetCode',
+      }, {
+        imgSrc: 'https://raw.githubusercontent.com/zhaoolee/ChromeAppHeroes/master/README/9ac21b8aea054eb48fc404fd429638bf.jpeg',
+        linkSrc: 'https://github.com/zhaoolee/ChromeAppHeroes/tree/master',
+        title: 'Chrome插件英雄榜',
+      }]
+    }, {
+      key: 'front-preview',
+      href: '#front-preview',
+      title: '简历&面试相关',
+      subData: [{
+        imgSrc: 'https://salomonelli.github.io/best-resume-ever/static/img/logo.1522a48.png',
+        linkSrc: 'https://github.com/salomonelli/best-resume-ever',
+        title: 'vue项目简历模板',
+      }, {
+        imgSrc: 'https://fe.padding.me/_media//favicon-32x32.png',
+        linkSrc: 'https://github.com/paddingme/Front-end-Web-Development-Interview-Question',
+        title: '前端面试题',
+      }]
+    }, {
+      key: 'front-regex',
+      href: '#front-regex',
+      title: '正则表达',
+      subData: [{
+        imgSrc: 'https://github.githubassets.com/favicons/favicon.svg',
+        linkSrc: 'https://github.com/VincentSit/ChinaMobilePhoneNumberRegex/blob/master/README-CN.md',
+        title: '大陆手机号',
+      }]
+    }, {
+      key: 'front-video-music',
+      href: '#front-video-music',
+      title: '音频视频',
+      subData: [{
+        imgSrc: 'https://howlerjs.com/assets/images/favicon.ico',
+        linkSrc: 'https://howlerjs.com/',
+        title: '网页音频解码',
+      }]
+    }
+  ])
+
+  const handleClickAnchor = (e) => {
+    e.preventDefault();
+  }
+
   return (
     <div className='main-div'>
-       <p>tool</p>
+      <div className='main-div-left'>
+        <Anchor
+          onClick={handleClickAnchor}
+          items={data}
+        />
+      </div>
+      <div className='main-div-right'>
+        <Space direction="vertical" size="middle" style={{width:'100%'}}>
+          {
+            data.map((item)=>{
+              return (
+                <Card size="small" title={item.title} id={item.href.replace('#','')}>
+                  <Space size={[16, 16]} wrap>
+                    {
+                      item.subData.map((childrenItem)=>{
+                        return (
+                          <div className='main-div-right-item' id={childrenItem.linkSrc}>
+                            <img src={childrenItem.imgSrc} alt={childrenItem.title}></img>
+                            <Link href={childrenItem.linkSrc} target="_blank">{childrenItem.title}</Link>
+                          </div>
+                        )
+                      })
+                    }
+                  </Space>
+                </Card>
+              )
+            })
+          }
+        </Space>
+      </div> 
     </div>
   );
 }
-
 
 export default Tool;

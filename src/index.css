@@ -164,6 +164,12 @@ body {
 
 .main-div-left {
   width: 300px;
+  margin-top: 10px;
+}
+
+.ant-anchor-link-title {
+  height: 30px;
+  line-height: 30px;
 }
 
 .main-div-right {
@@ -172,14 +178,14 @@ body {
 
 .main-div-right-item {
   line-height: 40px;
-  width: 162px;
+  width: 160px;
 }
 
 .main-div-right-item img {
   width: 20px;
   height: 20px;
   vertical-align: text-top;
-  margin-right: 5px;
+  margin-right: 7px;
 }
 
 /* bottomLayout */

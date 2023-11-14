@@ -1,10 +1,52 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Anchor } from 'antd';
 import { Card, Space, Typography } from 'antd';
 
 function Deploy() {
 
   const { Link } = Typography;
+
+  const [data] = useState([
+    {
+      key: 'Create-React-App-GitPages',
+      href: '#Create-React-App-GitPages',
+      title: 'Create React App 部署 GitPages',
+      subData: [{
+        imgSrc: 'https://create-react-app.bootcss.com/img/favicon/favicon.ico',
+        linkSrc: 'https://create-react-app.bootcss.com/docs/deployment#github-pages',
+        title: 'React deployment',
+      }, {
+        imgSrc: 'https://github.githubassets.com/favicons/favicon.svg',
+        linkSrc: 'https://github.com/gitname/react-gh-pages',
+        title: 'react-gh-pages',
+      }, {
+        imgSrc: 'https://busuanzi.ibruce.info/images/garlic.png',
+        linkSrc: 'https://busuanzi.ibruce.info/',
+        title: '不蒜子网页计数器',
+      }]
+    }, {
+      key: 'hexo',
+      href: '#hexo',
+      title: 'hexo',
+      subData: [{
+        imgSrc: 'https://hexo.io/icon/favicon-32x32.png',
+        linkSrc: 'https://hexo.io/zh-cn/',
+        title: 'Hexo 博客框架',
+      }, {
+        imgSrc: 'https://github.githubassets.com/favicons/favicon.svg',
+        linkSrc: 'https://github.com/gitalk/gitalk/blob/master/readme-cn.md',
+        title: 'Gitalk 评论插件',
+      }, {
+        imgSrc: 'https://github.githubassets.com/favicons/favicon.svg',
+        linkSrc: 'https://github.com/Fechin/hexo-theme-diaspora',
+        title: 'theme-diaspora',
+      }, {
+        imgSrc: 'https://github.githubassets.com/favicons/favicon.svg',
+        linkSrc: 'https://github.com/dongyuanxin/theme-bmw',
+        title: 'theme-bmw',
+      }]
+    }
+  ])
 
   const handleClickAnchor = (e) => {
     e.preventDefault();
@@ -15,32 +57,35 @@ function Deploy() {
       <div className='main-div-left'>
         <Anchor
           onClick={handleClickAnchor}
-          items={[{
-            key: '1',
-            href: '#Create-React-App-GitPages',
-            title: 'Create React App 部署 GitPages',
-          }]}
+          items={data}
         />
       </div>
       <div className='main-div-right'>
         <Space direction="vertical" size="middle" style={{width:'100%'}}>
-          <Card size="small" title="Create React App 部署 GitPages" id="Create-React-App-GitPages">
-            <Space size={[16, 16]} wrap>
-              <div className='main-div-right-item'>
-                <img src="https://create-react-app.bootcss.com/img/favicon/favicon.ico"></img>
-                <Link href="https://create-react-app.bootcss.com/docs/deployment#github-pages" target="_blank">React deployment</Link>
-              </div>
-              <div className='main-div-right-item'>
-                <img src="https://github.githubassets.com/favicons/favicon.svg"></img>
-                <Link href="https://github.com/gitname/react-gh-pages" target="_blank">react-gh-pages</Link>
-              </div>
-            </Space>
-          </Card>
+          {
+            data.map((item)=>{
+              return (
+                <Card size="small" title={item.title} id={item.href.replace('#','')}>
+                  <Space size={[16, 16]} wrap>
+                    {
+                      item.subData.map((childrenItem)=>{
+                        return (
+                          <div className='main-div-right-item' id={childrenItem.linkSrc}>
+                            <img src={childrenItem.imgSrc} alt={childrenItem.title}></img>
+                            <Link href={childrenItem.linkSrc} target="_blank">{childrenItem.title}</Link>
+                          </div>
+                        )
+                      })
+                    }
+                  </Space>
+                </Card>
+              )
+            })
+          }
         </Space>
       </div> 
     </div>
   );
 }
-
 
 export default Deploy;
