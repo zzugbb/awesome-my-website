@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Anchor } from 'antd';
-import { Card, Space, Typography } from 'antd';
+import { Card, Space, Typography, Image } from 'antd';
 import rapPng from '../asset/img/rap-logo.png';
 import githubPng from '../asset/img/github-logo.png';
 
@@ -104,7 +104,14 @@ function Tool() {
                       item.subData.map((childrenItem)=>{
                         return (
                           <div className='main-div-right-item' key={childrenItem.linkSrc}>
-                            <img src={childrenItem.imgSrc} alt={childrenItem.title}></img>
+                            <Image 
+                              fallback={githubPng} 
+                              src={childrenItem.imgSrc} 
+                              alt={childrenItem.title} 
+                              width={20} 
+                              height={20}
+                              preview={false}
+                            />
                             <Link href={childrenItem.linkSrc} target="_blank">{childrenItem.title}</Link>
                           </div>
                         )
