@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Anchor } from 'antd';
 import { Card, Space, Typography } from 'antd';
+import mockPng from '../asset/img/mock-logo.png';
 
 function Study() {
 
@@ -33,7 +34,7 @@ function Study() {
       href: '#front-0fficial',
       title: '官方文档',
       subData: [{
-        imgSrc: 'http://mockjs.com/assets/img/logo-2.svg',
+        imgSrc: mockPng,
         linkSrc: 'http://mockjs.com/',
         title: 'Mock.js',
       }, {

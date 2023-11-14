@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Anchor } from 'antd';
 import { Card, Space, Typography } from 'antd';
+import rapPng from '../asset/img/rap-logo.png';
 
 function Tool() {
 
@@ -28,7 +29,7 @@ function Tool() {
         linkSrc: 'https://github.com/drawcall/clock-shop',
         title: '各种各样钟表',
       }, {
-        imgSrc: 'http://rap2.taobao.org/favicon.png',
+        imgSrc: rapPng,
         linkSrc: 'https://github.com/thx/rap2-delos',
         title: '接口管理工具RAP',
       }]
@@ -50,7 +51,7 @@ function Tool() {
       href: '#front-preview',
       title: '简历&面试相关',
       subData: [{
-        imgSrc: 'https://salomonelli.github.io/best-resume-ever/static/img/logo.1522a48.png',
+        imgSrc: 'https://raw.githubusercontent.com/salomonelli/best-resume-ever/master/src/assets/logo.png',
         linkSrc: 'https://github.com/salomonelli/best-resume-ever',
         title: 'vue项目简历模板',
       }, {
