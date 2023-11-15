@@ -3,49 +3,30 @@ import { Anchor } from 'antd';
 import { Card, Space, Typography, Image } from 'antd';
 import githubPng from '../asset/img/github-logo.png';
 
-function Deploy() {
+function Life() {
 
   const { Link } = Typography;
 
   const [data] = useState([
     {
-      key: 'Create-React-App-GitPages',
-      href: '#Create-React-App-GitPages',
-      title: 'Create React App 部署 GitPages',
+      key: 'cook',
+      href: '#cook',
+      title: '一起做饭',
       subData: [{
-        imgSrc: 'https://create-react-app.bootcss.com/img/favicon/favicon.ico',
-        linkSrc: 'https://create-react-app.bootcss.com/docs/deployment#github-pages',
-        title: 'React deployment',
-      }, {
-        imgSrc: githubPng,
-        linkSrc: 'https://github.com/gitname/react-gh-pages',
-        title: 'react-gh-pages',
-      }, {
-        imgSrc: 'https://busuanzi.ibruce.info/images/garlic.png',
-        linkSrc: 'https://busuanzi.ibruce.info/',
-        title: '不蒜子网页计数器',
+        imgSrc: 'https://cook.aiurs.co/assets/images/favicon.png',
+        linkSrc: 'https://cook.aiurs.co/',
+        githubSrc: 'https://github.com/Anduin2017/HowToCook',
+        title: '程序员做饭指南',
       }]
     }, {
-      key: 'hexo',
-      href: '#hexo',
-      title: 'hexo',
+      key: 'Work is not all',
+      href: '#Work is not all',
+      title: 'Work is not all',
       subData: [{
-        imgSrc: 'https://hexo.io/icon/favicon-32x32.png',
-        linkSrc: 'https://hexo.io/zh-cn/',
-        title: 'Hexo 博客框架',
-      }, {
-        imgSrc: 'https://gitalk.github.io/favicon.ico',
-        linkSrc: 'https://gitalk.github.io/',
-        githubSrc: 'https://github.com/gitalk/gitalk',
-        title: 'Gitalk 评论插件',
-      }, {
-        imgSrc: githubPng,
-        linkSrc: 'https://github.com/Fechin/hexo-theme-diaspora',
-        title: 'theme-diaspora',
-      }, {
-        imgSrc: githubPng,
-        linkSrc: 'https://github.com/dongyuanxin/theme-bmw',
-        title: 'theme-bmw',
+        imgSrc: 'https://avatars2.githubusercontent.com/u/48942249?s=60&v=4',
+        linkSrc: 'https://996.icu/#/zh_CN',
+        githubSrc: 'https://github.com/996icu/996.ICU',
+        title: '996 ICU',
       }]
     }
   ])
@@ -97,4 +78,4 @@ function Deploy() {
   );
 }
 
-export default Deploy;
+export default Life;

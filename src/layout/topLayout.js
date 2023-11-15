@@ -43,7 +43,7 @@ function TopLayout() {
           <li onClick={() => handleClickMenu('deploy')} className={currentMenu === 'deploy' ? 'current-li' : ''}>
             <span><IconFont style={{fontSize:'20px',marginRight:'6px'}} type="icon-liuchengbushu"></IconFont>搭建部署</span>
           </li>
-          <li>
+          <li onClick={() => handleClickMenu('life')} className={currentMenu === 'life' ? 'current-li' : ''}>
             <span><IconFont style={{fontSize:'20px',marginRight:'6px'}} type="icon-shenghuoyule"></IconFont>生活娱乐</span>
           </li>
           <li>
