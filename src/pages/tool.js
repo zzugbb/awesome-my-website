@@ -61,6 +61,19 @@ function Tool() {
         title: '前端面试题',
       }]
     }, {
+      key: 'front-image-icon',
+      href: '#front-image-icon',
+      title: '图片&ICON',
+      subData: [{
+        imgSrc: 'https://cdn.shopify.com/shopifycloud/hatchful_web_two/bundles/840babff8c7009ac167142cb459dfe8d.svg',
+        linkSrc: 'https://www.shopify.com/zh/tools/logo-maker',
+        title: '免费logo制作',
+      }, {
+        imgSrc: 'https://www.remove.bg/favicon.ico',
+        linkSrc: 'https://www.remove.bg/zh',
+        title: '在线抠图背景消除',
+      }]  
+    }, {
       key: 'front-regex',
       href: '#front-regex',
       title: '正则表达',
