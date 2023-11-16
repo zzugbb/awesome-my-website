@@ -12,9 +12,9 @@
 
 ### Overview
 
-<p align="center">
- <img alt="website" src="./public/website.jpg">
-</p>
+
+<img alt="website" src="./public/website.jpg">
+
 
 ### Quick start
 
