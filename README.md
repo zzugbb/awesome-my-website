@@ -10,22 +10,22 @@
  <img alt="heart" src="https://img.shields.io/badge/BUILT_WITH_%E2%9D%A4%EF%B8%8F%20-0087ed">
 </p>
 
-### Overview
+### Overview :clap:
 
 
 <img alt="website" src="./public/website.png">
 
 
-### Quick start
+### Quick start :point_down:
 
 ```sh
 yarn install
 yarn start
 ```
 
-Then open http://localhost:3000/ to see your website.
+> :point_right: Then open http://localhost:3000/ to see your website.
 
-### Deploy to gh-pages
+### Deploy to gh-pages :muscle:
 
 ```sh
 npm run deploy -- -m "commit msg"
