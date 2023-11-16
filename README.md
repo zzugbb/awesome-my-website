@@ -5,10 +5,22 @@
 </p>
 
 <p align="center">
-  <a href="">
-    <img alt="language" src="https://img.shields.io/badge/language-react-red">
-  </a>
-  <a href="">
-    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/zzugbb/awesome-my-website?logo=github">
-  </a>
+ <img alt="language" src="https://img.shields.io/badge/language-react-red">
+ <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/zzugbb/awesome-my-website?logo=github">
+ <img alt="heart" src="https://img.shields.io/badge/BUILT_WITH_%E2%9D%A4%EF%B8%8F%20-0087ed">
 </p>
+
+### Quick start
+
+```sh
+yarn install
+yarn start
+```
+
+Then open http://localhost:3000/ to see your website.
+
+### Deploy to gh-pages
+
+```sh
+npm run deploy -- -m "commit msg"
+```
