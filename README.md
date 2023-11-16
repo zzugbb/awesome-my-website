@@ -30,3 +30,8 @@ yarn start
 ```sh
 npm run deploy -- -m "commit msg"
 ```
+
+### Link :link:
+
+* :pager: [Deployment GitHub Pages](https://create-react-app.bootcss.com/docs/deployment#github-pages)
+* :sunflower: [busuanzi](https://busuanzi.ibruce.info/)
