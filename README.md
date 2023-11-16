@@ -13,7 +13,7 @@
 ### Overview
 
 
-<img alt="website" src="./public/website.jpg">
+<img alt="website" src="./public/website.png">
 
 
 ### Quick start
