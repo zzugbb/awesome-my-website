@@ -62,6 +62,10 @@ function Study() {
         imgSrc: 'https://axios-http.com/assets/favicon.ico',
         linkSrc: 'https://axios-http.com/zh/docs/intro',
         title: 'Axios',
+      }, {
+        imgSrc: 'https://echarts.apache.org/zh/images/favicon.png',
+        linkSrc: 'https://echarts.apache.org/zh/index.html',
+        title: 'Echarts',
       }]
     }, {
       key: '3',

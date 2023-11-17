@@ -18,13 +18,23 @@ function Tool() {
         linkSrc: 'https://github.com/caiyongji/emoji-list',
         title: 'Github表情列表',
       }, {
-        imgSrc: 'https://devhubapp.com/static/logo.png',
-        linkSrc: 'https://devhubapp.com/',
-        title: 'Github客户端',
-      }, {
         imgSrc: 'https://camo.githubusercontent.com/9ad8cfe3215fff758ea74784f86ef0de25b6acfbd6a4fab19d9a13ff47b05843/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f616e7572616768617a72612f696d6167652f75706c6f61642f76313539343930383234322f6c6f676f5f636373776d652e737667',
         linkSrc: 'https://github.com/anuraghazra/github-readme-stats',
         title: 'Readme Stats 装饰',
+      }, {
+        imgSrc: 'https://shields.io/img/favicon.ico',
+        linkSrc: 'https://shields.io/',
+        githubSrc: 'https://github.com/badges/shields',
+        title: 'Github徽章 shields',
+      }, {
+        imgSrc: 'https://forthebadge.com/images/mark.svg',
+        linkSrc: 'https://forthebadge.com/',
+        githubSrc: 'https://github.com/forthebadge/for-the-badge',
+        title: 'Github徽章 Badge',
+      }, {
+        imgSrc: 'https://devhubapp.com/static/logo.png',
+        linkSrc: 'https://devhubapp.com/',
+        title: 'Github客户端',
       }, {
         imgSrc: 'https://wangchujiang.com/awesome-mac/logo.svg',
         linkSrc: 'https://wangchujiang.com/awesome-mac/',
@@ -56,6 +66,10 @@ function Tool() {
         imgSrc: 'https://raw.githubusercontent.com/zhaoolee/ChromeAppHeroes/master/README/9ac21b8aea054eb48fc404fd429638bf.jpeg',
         linkSrc: 'https://github.com/zhaoolee/ChromeAppHeroes/tree/master',
         title: 'Chrome插件英雄榜',
+      }, {
+        imgSrc: 'https://avatars.githubusercontent.com/u/14891797?s=48&v=4',
+        linkSrc: 'https://github.com/fhefh2015/Fast-GitHub',
+        title: 'Github下载加速插件',
       }]
     }, {
       key: 'front-preview',
@@ -110,6 +124,14 @@ function Tool() {
         imgSrc: 'https://www.remove.bg/favicon.ico',
         linkSrc: 'https://www.remove.bg/zh',
         title: '在线抠图背景消除',
+      }, {
+        imgSrc: 'https://glowtxt.com/favicon-32.png',
+        linkSrc: 'https://glowtxt.com/',
+        title: '艺术字png&gif生成',
+      }, {
+        imgSrc: 'https://blog.hubspot.com/hubfs/HubSpot_Logos/HubSpot-Inversed-Favicon.png',
+        linkSrc: 'https://blog.hubspot.com/website/top-free-online-font-generators',
+        title: '17个免费字体生成器',
       }]  
     }, {
       key: 'front-regex',
