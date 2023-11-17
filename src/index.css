@@ -210,3 +210,7 @@ body {
 .bottom-div p {
   line-height: 35px;
 }
+
+.gt-container {
+  text-align: left;
+}

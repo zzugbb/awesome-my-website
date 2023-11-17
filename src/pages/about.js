@@ -2,6 +2,8 @@ import React, { } from 'react';
 import HelloImg from '../asset/img/HelloImg.gif';
 import { Image, Divider } from 'antd';
 import logo from '../asset/img/logo3.png';
+import 'gitalk/dist/gitalk.css'
+import GitalkComponent from "gitalk/dist/gitalk-component";
 
 function About() {
 
@@ -31,6 +33,16 @@ function About() {
             <img alt="github" src="https://img.shields.io/badge/Catch_Me-Github-%23FC6D26?logo=github"/>
           </a>
         </p>
+        <div style={{margin:'50px'}}>
+          <GitalkComponent options={{
+            clientID: "your clientID",
+            clientSecret: "your clientSecret",
+            repo: 'awesome-my-website',
+            owner: 'zzugbb',
+            admin: ['zzugbb'],
+            id: 'awesome-my-website-about'
+          }} />
+        </div>
       </div>
     </div>
   );
