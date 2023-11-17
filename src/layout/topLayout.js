@@ -46,11 +46,11 @@ function TopLayout() {
           <li onClick={() => handleClickMenu('life')} className={currentMenu === 'life' ? 'current-li' : ''}>
             <span><IconFont style={{fontSize:'20px',marginRight:'6px'}} type="icon-shenghuoyule"></IconFont>生活娱乐</span>
           </li>
-          <li>
+          {/* <li>
             <span><IconFont style={{fontSize:'20px',marginRight:'6px'}} type="icon-qita"></IconFont>乱七八糟</span>
-          </li>
-          <li>
-            <span><IconFont style={{fontSize:'20px',marginRight:'6px'}} type="icon-guanyu1"></IconFont>关于我的</span>
+          </li> */}
+          <li onClick={() => handleClickMenu('about')} className={currentMenu === 'about' ? 'current-li' : ''}>
+            <span><IconFont style={{fontSize:'20px',marginRight:'6px'}} type="icon-guanyu1"></IconFont>关于本站</span>
           </li>
         </ul>
       </div>
