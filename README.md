@@ -13,7 +13,7 @@
 ### Overview :clap:
 
 
-<img alt="website" src="./public/website.png">
+<!-- <img alt="website" src="./asset/img/website.png"> -->
 
 
 ### Quick start :point_down:
