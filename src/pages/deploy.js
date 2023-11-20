@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Anchor } from 'antd';
 import { Card, Space, Typography, Image } from 'antd';
 import githubPng from '../asset/img/github-logo.png';
+import cnblogPng from '../asset/img/cnblog.ico'
 
 function Deploy() {
 
@@ -46,6 +47,44 @@ function Deploy() {
         imgSrc: githubPng,
         linkSrc: 'https://github.com/dongyuanxin/theme-bmw',
         title: 'theme-bmw',
+      }]
+    }, {
+      key: 'GitBook',
+      href: '#GitBook',
+      title: 'GitBook',
+      subData: [{
+        imgSrc: 'https://framerusercontent.com/images/XzggBVq5LteL2WchkrahlHZpgs.svg',
+        linkSrc: 'https://www.gitbook.com/',
+        title: 'GitBook',
+      }, {
+        imgSrc: 'https://www.chengweiyang.cn/gitbook/gitbook/images/favicon.ico',
+        linkSrc: 'https://www.chengweiyang.cn/gitbook/gitbook.com/config/github.html',
+        title: 'GitHub 集成 GitBook',
+      }, {
+        imgSrc: 'https://g.csdnimg.cn/static/logo/favicon32.ico',
+        linkSrc: 'https://blog.csdn.net/SYT_Boss/article/details/84101775',
+        title: 'GitBook 安装',
+      }]
+    }, {
+      key: 'gitOperation',
+      href: '#gitOperation',
+      title: 'Git 相关',
+      subData: [{
+        imgSrc: 'https://g.csdnimg.cn/static/logo/favicon32.ico',
+        linkSrc: 'https://blog.csdn.net/qq_39083004/article/details/81053953',
+        title: 'Fork仓库更新最新',
+      }, {
+        imgSrc: 'https://g.csdnimg.cn/static/logo/favicon32.ico',
+        linkSrc: 'https://blog.csdn.net/dddd6666qq/article/details/106763155',
+        title: '更新Fork仓库代码',
+      }, {
+        imgSrc: cnblogPng,
+        linkSrc: 'https://www.cnblogs.com/shenxiaolin/p/7896489.html',
+        title: 'Git 修改用户名邮箱',
+      }, {
+        imgSrc: 'https://g.csdnimg.cn/static/logo/favicon32.ico',
+        linkSrc: 'https://blog.csdn.net/skykingf/article/details/44078837',
+        title: 'Git 删除空目录',
       }]
     }
   ])

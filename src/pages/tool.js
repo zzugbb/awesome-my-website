@@ -32,6 +32,34 @@ function Tool() {
         githubSrc: 'https://github.com/forthebadge/for-the-badge',
         title: 'Github徽章 Badge',
       }, {
+        imgSrc: githubPng,
+        linkSrc: 'https://github.blog/2008-12-19-github-ribbons/',
+        title: 'Fork me 彩带',
+      }, {
+        imgSrc: 'https://tholman.com/favicon.ico',
+        linkSrc: 'https://tholman.com/github-corners/',
+        githubSrc: 'https://github.com/tholman/github-corners',
+        title: 'Fork me 角标',
+      }, {
+        imgSrc: 'https://gissue.github.io/img/logo.png',
+        linkSrc: 'https://gissue.github.io/',
+        githubSrc: 'https://github.com/gissue/gissue.github.io',
+        title: 'Github Issues 下载',
+      }, {
+        imgSrc: 'https://www.toptal.com/developers/gitignore/img/lightning.svg',
+        linkSrc: 'https://www.toptal.com/developers/gitignore/',
+        githubSrc: 'https://github.com/toptal/gitignore.io',
+        title: 'gitignore 文件生成',
+      }, {
+        imgSrc: 'https://avatars.githubusercontent.com/u/6821244?s=48&v=4',
+        linkSrc: 'https://ghchart.rshah.org/',
+        githubSrc: 'https://github.com/2016rshah/githubchart-api',
+        title: 'Github 贡献图 API',
+      }, {
+        imgSrc: 'https://repobeats.axiom.co/favicon-32x32.png',
+        linkSrc: 'https://repobeats.axiom.co/',
+        title: 'Github Readme 图表',
+      }, {
         imgSrc: 'https://devhubapp.com/static/logo.png',
         linkSrc: 'https://devhubapp.com/',
         title: 'Github客户端',
@@ -132,6 +160,10 @@ function Tool() {
         imgSrc: 'https://blog.hubspot.com/hubfs/HubSpot_Logos/HubSpot-Inversed-Favicon.png',
         linkSrc: 'https://blog.hubspot.com/website/top-free-online-font-generators',
         title: '17个免费字体生成器',
+      }, {
+        imgSrc: 'https://simpleicons.org/images/favicon.ico',
+        linkSrc: 'https://simpleicons.org/',
+        title: 'simple icons',
       }]  
     }, {
       key: 'front-regex',
