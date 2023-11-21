@@ -66,6 +66,14 @@ function Study() {
         imgSrc: 'https://echarts.apache.org/zh/images/favicon.png',
         linkSrc: 'https://echarts.apache.org/zh/index.html',
         title: 'Echarts',
+      }, {
+        imgSrc: 'https://gw.alipayobjects.com/zos/rmsportal/rlpTLlbMzTNYuZGGCVYM.png',
+        linkSrc: 'https://ant-design.antgroup.com/index-cn',
+        title: 'Ant Design',
+      }, {
+        imgSrc: 'https://zos.alipayobjects.com/rmsportal/wIjMDnsrDoPPcIV.png',
+        linkSrc: 'https://rn.mobile.ant.design/index-cn',
+        title: 'AntD Mobile RN',
       }]
     }, {
       key: '3',

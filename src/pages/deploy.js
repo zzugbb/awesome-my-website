@@ -40,6 +40,10 @@ function Deploy() {
         githubSrc: 'https://github.com/gitalk/gitalk',
         title: 'Gitalk 评论插件',
       }, {
+        imgSrc: 'https://static.zhihu.com/heifetz/favicon.ico',
+        linkSrc: 'https://zhuanlan.zhihu.com/p/260781932',
+        title: '博客集成 Gitalk',
+      }, {
         imgSrc: githubPng,
         linkSrc: 'https://github.com/Fechin/hexo-theme-diaspora',
         title: 'theme-diaspora',
