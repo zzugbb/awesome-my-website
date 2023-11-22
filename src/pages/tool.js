@@ -161,6 +161,10 @@ function Tool() {
         linkSrc: 'https://blog.hubspot.com/website/top-free-online-font-generators',
         title: '17个免费字体生成器',
       }, {
+        imgSrc: 'https://www.codepng.app/favicon.ico',
+        linkSrc: 'https://www.codepng.app/',
+        title: '代码图片codeToPng',
+      }, {
         imgSrc: 'https://simpleicons.org/images/favicon.ico',
         linkSrc: 'https://simpleicons.org/',
         title: 'simple icons',
