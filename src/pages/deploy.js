@@ -25,6 +25,12 @@ function Deploy() {
         imgSrc: 'https://busuanzi.ibruce.info/images/garlic.png',
         linkSrc: 'https://busuanzi.ibruce.info/',
         title: '不蒜子网页计数器',
+      }, {
+        imgSrc: 'https://minimalanalytics.com/icons/icon-48x48.png',
+        linkSrc: 'https://minimalanalytics.com/',
+        title: '谷歌页面分析-简化版',
+        des: 'Minimal Google Analytics Snippet',
+        githubSrc: 'https://gist.github.com/DavidKuennen/443121e692175d6fc145e1efb0284ec9'
       }]
     }, {
       key: 'hexo',
@@ -34,6 +40,12 @@ function Deploy() {
         imgSrc: 'https://hexo.io/icon/favicon-32x32.png',
         linkSrc: 'https://hexo.io/zh-cn/',
         title: 'Hexo 博客框架',
+      }, {
+        imgSrc: 'https://easyhexo.com/favicon.png',
+        linkSrc: 'https://easyhexo.com/',
+        githubSrc: 'https://github.com/EasyHexo/Easy-Hexo',
+        title: 'Easy Hexo 轻松入门',
+        des: '一站式的 Hexo 教程, 轻松使用 Hexo 建站',
       }, {
         imgSrc: 'https://gitalk.github.io/favicon.ico',
         linkSrc: 'https://gitalk.github.io/',

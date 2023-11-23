@@ -193,6 +193,23 @@ function Tool() {
         githubSrc: 'https://github.com/goldfire/howler.js',
         title: '网页音频解码',
       }]
+    }, {
+      key: 'front-same-website',
+      href: '#front-same-website',
+      title: '同类网站',
+      subData: [{
+        imgSrc: 'https://no.buging.cn/img/logo.ico',
+        linkSrc: 'https://no.buging.cn/',
+        title: 'Web前端导航',
+      }, {
+        imgSrc: 'https://web-abin.github.io/abinWeb/favicon.ico',
+        linkSrc: 'https://web-abin.github.io/abinWeb/',
+        title: '前端助手',
+      }, {
+        imgSrc: 'https://fe-nav.netlify.app/favicon.ico',
+        linkSrc: 'https://fe-nav.netlify.app/nav/',
+        title: '前端导航 | 茂茂物语',
+      }]
     }
   ])
 
