@@ -3,6 +3,7 @@ import { Anchor } from 'antd';
 import { Card, Space, Typography, Image } from 'antd';
 import rapPng from '../asset/img/rap-logo.png';
 import githubPng from '../asset/img/github-logo.png';
+import cnblogPng from '../asset/img/cnblog.ico';
 
 function Tool() {
 
@@ -192,6 +193,51 @@ function Tool() {
         linkSrc: 'https://howlerjs.com/',
         githubSrc: 'https://github.com/goldfire/howler.js',
         title: '网页音频解码',
+      }, {
+        imgSrc: 'https://smashinghub.com/wp-content/themes/smashing_hub/favicon.ico',
+        linkSrc: 'https://smashinghub.com/10-best-html5-audio-players.htm',
+        title: 'H5 Audio Player 精选',
+        des: '10 Best HTML5 Audio Players',
+      }]
+    }, {
+      key: 'front-online-edit',
+      href: '#front-online-edit',
+      title: '编辑器&在线编辑&数学公式',
+      subData: [{
+        imgSrc: 'https://dillinger.io/apple-touch-icon.png',
+        linkSrc: 'https://dillinger.io/',
+        title: 'Online Md Editor',
+        des: 'Online Markdown Editor-PREVIEW, EXPORT HTML&PDF, SAVE, IMPORT',
+      }, {
+        imgSrc: 'https://codesandbox.io/favicon.ico',
+        linkSrc: 'https://codesandbox.io/',
+        title: 'CodeSandbox 云开发',
+      }, {
+        imgSrc: cnblogPng,
+        linkSrc: 'https://www.cnblogs.com/Tirisfal/p/5548424.html',
+        title: 'CKeditor 配置使用',
+      }, {
+        imgSrc: 'https://mathjax-chinese-doc.readthedocs.io/favicon.ico',
+        linkSrc: 'https://mathjax-chinese-doc.readthedocs.io/en/latest/index.html',
+        title: 'MathJax 中文文档',
+        des: '用来显示网络上的数学公式的JavaScript引擎'
+      }, {
+        imgSrc: 'https://static.segmentfault.com/main_site_next/71562539/touch-icon.png',
+        linkSrc: 'https://segmentfault.com/a/1190000008317350',
+        title: 'MathJax 的配置笔记',
+      }, {
+        imgSrc: 'https://static.segmentfault.com/main_site_next/71562539/touch-icon.png',
+        linkSrc: 'https://segmentfault.com/a/1190000003822609',
+        title: 'MathJax 瘦身记',
+      }, {
+        imgSrc: 'https://g.csdnimg.cn/static/logo/favicon32.ico',
+        linkSrc: 'https://blog.csdn.net/linyuxilu/article/details/78584321',
+        title: '解决MathJax加载慢',
+      },{
+        imgSrc: 'http://mathquill.com/favicon.ico',
+        linkSrc: 'http://mathquill.com/',
+        title: 'MathQuill',
+        des: 'Easily type math in your webapp'
       }]
     }, {
       key: 'front-same-website',
