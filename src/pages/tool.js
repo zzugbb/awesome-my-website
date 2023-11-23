@@ -171,6 +171,65 @@ function Tool() {
         title: 'simple icons',
       }]  
     }, {
+      key: 'front-tool-site',
+      href: '#front-tool-site',
+      title: '在线工具网站',
+      subData: [{
+        imgSrc: 'https://tool.oschina.net/img/favicon.ico',
+        linkSrc: 'https://tool.oschina.net/encode?type=4',
+        title: '在线编码转换',
+      }, {
+        imgSrc: 'https://tool.oschina.net/img/favicon.ico',
+        linkSrc: 'https://tool.oschina.net/encrypt?type=2',
+        title: '在线加密解密',
+      }, {
+        imgSrc: 'https://screendump.techulus.com/favicon.ico',
+        linkSrc: 'https://screendump.techulus.com/',
+        title: '输入网址生成截图',
+      }, {
+        imgSrc: 'https://www.p2hp.com/favicon.ico',
+        linkSrc: 'https://www.p2hp.com/screenrecord.html',
+        title: '在线屏幕录制&下载',
+      }, {
+        imgSrc: 'https://www.p2hp.com/favicon.ico',
+        linkSrc: 'https://screenrecord.43z.one/',
+        title: '屏幕录制&下载EN',
+      }, {
+        imgSrc: 'https://tool.p2hp.com/tools/images/icon.png',
+        linkSrc: 'https://tool.p2hp.com/',
+        title: '程序员在线工具箱',
+      }, {
+        imgSrc: 'https://www.toolfk.com/tools/images/icon.png',
+        linkSrc: 'https://www.toolfk.com/',
+        title: '工具人在线工具箱',
+      }, {
+        imgSrc: 'https://www.explainshell.com/static/img/shell.png',
+        linkSrc: 'https://www.explainshell.com/',
+        title: 'Shell命令可视化解释',
+      }, {
+        imgSrc: 'https://squoosh.app/c/favicon-c9cf50ef.ico',
+        linkSrc: 'https://squoosh.app/',
+        title: '图片压缩转换-隐私',
+      }, {
+        imgSrc: 'https://www.qt86.com/favicon.ico',
+        linkSrc: 'https://www.qt86.com/',
+        title: '艺术字生成转换',
+      }, {
+        imgSrc: 'https://cloudconvert.com/images/logo_flat_32.png',
+        linkSrc: 'https://cloudconvert.com/',
+        title: 'File Convert',
+        des: "各种各样格式的文件转换, 文档, 图片 等等"
+      }, {
+        imgSrc: 'https://cn.office-converter.com/Online-Converter/OnlineConvert32.png',
+        linkSrc: 'https://cn.office-converter.com/',
+        title: '文件转换器',
+        des: "在线转换器 - 转换视频, 音乐, 图像, PDF"
+      }, {
+        imgSrc: 'https://www.bejson.com/favicon.ico',
+        linkSrc: 'https://www.bejson.com/jsonviewernew/',
+        title: 'JSON在线查看编辑',
+      }]
+    }, {
       key: 'front-regex',
       href: '#front-regex',
       title: '正则表达',

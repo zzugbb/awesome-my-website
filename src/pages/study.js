@@ -89,6 +89,10 @@ function Study() {
         githubSrc: 'https://github.com/ruanyf/es6tutorial',
         title: 'ES6 入门教程',
       }, {
+        imgSrc: 'http://www.htmleaf.com/templets/default/images/ico/apple-touch-icon-72.png',
+        linkSrc: 'http://www.htmleaf.com/',
+        title: 'jQuery之家',
+      }, {
         imgSrc: 'https://gojs.net/favicon.ico',
         linkSrc: 'https://gojs.net/latest/index.html',
         githubSrc: 'https://github.com/NorthwoodsSoftware/GoJS',
