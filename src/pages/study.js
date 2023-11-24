@@ -172,7 +172,8 @@ function Study() {
       }, {
         imgSrc: githubPng,
         linkSrc: 'https://github.com/simple-uploader/vue-uploader/blob/master/README_zh-CN.md',
-        title: 'vueSimpleUpload-官',
+        title: 'vue-simple-uploader',
+        des: 'vue-simple-uploader-官方文档',
       }, {
         imgSrc: cnblogPng,
         linkSrc: 'https://www.cnblogs.com/xiahj/p/15950975.html',

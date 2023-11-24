@@ -104,6 +104,10 @@ function Deploy() {
         linkSrc: 'https://www.digitalocean.com/community/tools/nginx?global.app.lang=zhCN',
         title: 'NGINX 配置生成',
       }, {
+        imgSrc: cnblogPng,
+        linkSrc: 'https://www.cnblogs.com/Anker/p/6056540.html',
+        title: '正向代理与反向代理',
+      }, {
         imgSrc: 'https://ruanyifeng.com/favicon.ico',
         linkSrc: 'https://ruanyifeng.com/blog/2018/02/docker-tutorial.html',
         title: 'Docker 入门-阮一峰',

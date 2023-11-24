@@ -137,6 +137,10 @@ function Tool() {
         linkSrc: 'https://github.com/yifeikong/reverse-interview-zh',
         title: '面试反问面试官',
       }, {
+        imgSrc: 'https://static.nowcoder.com/fe/file/images/nowpick/web/www-favicon.ico',
+        linkSrc: 'https://www.nowcoder.com/ta/front-end-interview?query=&asc=true&order=&page=1',
+        title: '前端面试经典题合集',
+      }, {
         imgSrc: githubPng,
         linkSrc: 'https://github.com/programboyboy/Garbage-company',
         title: '求职避坑',
@@ -150,9 +154,17 @@ function Tool() {
         linkSrc: 'https://www.shopify.com/zh/tools/logo-maker',
         title: '免费logo制作',
       }, {
+        imgSrc: 'https://static.mybrandnewlogo.com/images/favicon.ico',
+        linkSrc: 'https://mybrandnewlogo.com/',
+        title: 'logo生成',
+      }, {
         imgSrc: 'https://www.remove.bg/favicon.ico',
         linkSrc: 'https://www.remove.bg/zh',
         title: '在线抠图背景消除',
+      }, {
+        imgSrc: 'https://www.iloveimg.com/img/favicons-img/favicon-16x16.png',
+        linkSrc: 'https://www.iloveimg.com/zh-cn',
+        title: '图像文件在线编辑',
       }, {
         imgSrc: 'https://glowtxt.com/favicon-32.png',
         linkSrc: 'https://glowtxt.com/',
@@ -177,6 +189,10 @@ function Tool() {
         imgSrc: 'https://simpleicons.org/images/favicon.ico',
         linkSrc: 'https://simpleicons.org/',
         title: 'simple icons',
+      }, {
+        imgSrc: 'https://ikonate.com/favicon.png',
+        linkSrc: 'https://ikonate.com/#content',
+        title: 'SVG icons',
       }, {
         imgSrc: 'https://squoosh.app/c/favicon-c9cf50ef.ico',
         linkSrc: 'https://squoosh.app/',
