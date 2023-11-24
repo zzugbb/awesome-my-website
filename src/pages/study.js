@@ -58,6 +58,10 @@ function Study() {
         linkSrc: 'https://lib-pku.github.io/',
         githubSrc: 'https://github.com/lib-pku/libpku',
         title: '贵校课程民间整理',
+      }, {
+        imgSrc: 'https://www.php.cn/favicon.ico',
+        linkSrc: 'https://www.php.cn/manual/view/35521.html',
+        title: 'HTTP手册-CSP安全等',
       }]
     }, {
       key: '2',
@@ -156,6 +160,16 @@ function Study() {
       href: '#front-vue',
       title: 'Vue',
       subData: [{
+        imgSrc: 'https://avatars.githubusercontent.com/u/20945955?v=4',
+        linkSrc: 'https://www.cnblogs.com/xiahj/p/vue-simple-uploader.html',
+        title: 'vue-simple-uploader',
+        des: "基于vue-simple-uploader封装文件分片上传、秒传及断点续传的全局上传插件"
+      }, {
+        imgSrc: 'http://www.zzvips.com/favicon.ico',
+        linkSrc: 'http://www.zzvips.com/article/222069.html',
+        title: 'vue-simple-uploader',
+        des: "基于vue-simple-uploader封装文件分片上传、秒传及断点续传的全局上传插件功能"
+      }, {
         imgSrc: githubPng,
         linkSrc: 'https://github.com/bailicangdu/vue2-elm',
         title: 'DEMO-Vue2 elm',
