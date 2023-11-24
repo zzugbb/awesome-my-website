@@ -27,6 +27,10 @@ function Life() {
         linkSrc: 'https://zh.wikihow.com/%E9%A6%96%E9%A1%B5',
         title: '解决各种生活问题',
       }, {
+        imgSrc: 'https://static.zhihu.com/heifetz/favicon.ico',
+        linkSrc: 'https://zhuanlan.zhihu.com/p/34181273',
+        title: '生育保险到底怎么用',
+      }, {
         imgSrc: 'https://avatars.githubusercontent.com/u/47057319?s=48&v=4',
         linkSrc: 'https://akarin.dev/WechatMomentScreenshot/',
         githubSrc: 'https://github.com/TransparentLC/WechatMomentScreenshot',
@@ -49,9 +53,9 @@ function Life() {
         linkSrc: 'https://withpinbox.com/explore/collection/319426',
         title: '人能漂亮到什么程度',
       }, {
-        imgSrc: 'https://static.zhihu.com/heifetz/favicon.ico',
-        linkSrc: 'https://zhuanlan.zhihu.com/p/34181273',
-        title: '生育保险到底怎么用',
+        imgSrc: 'https://sockboom.id/theme/material/images/users/favicon.png',
+        linkSrc: 'https://sockboom.id/',
+        title: 'SockBoom-加速器',
       }, {
         imgSrc: 'https://avatars2.githubusercontent.com/u/48942249?s=60&v=4',
         linkSrc: 'https://996.icu/#/zh_CN',

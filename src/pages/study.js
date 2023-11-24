@@ -5,6 +5,7 @@ import mockPng from '../asset/img/mock-logo.png';
 import githubPng from '../asset/img/github-logo.png';
 import uikitPng from '../asset/img/uikit-logo.png';
 import es6Png from '../asset/img/es6-logo.png';
+import cnblogPng from '../asset/img/cnblog.ico';
 
 function Study() {
 
@@ -106,6 +107,11 @@ function Study() {
         linkSrc: 'http://www.htmleaf.com/',
         title: 'jQuery之家',
       }, {
+        imgSrc: 'https://static.zhihu.com/heifetz/favicon.ico',
+        linkSrc: 'https://zhuanlan.zhihu.com/p/84876191',
+        title: '函数对象原型链集成',
+        des: "从面向对象设计角度，全面解读——JS中的函数与对象、Object与Function、以及原型链与继承",
+      }, {
         imgSrc: 'https://gojs.net/favicon.ico',
         linkSrc: 'https://gojs.net/latest/index.html',
         githubSrc: 'https://github.com/NorthwoodsSoftware/GoJS',
@@ -160,6 +166,19 @@ function Study() {
       href: '#front-vue',
       title: 'Vue',
       subData: [{
+        imgSrc: githubPng,
+        linkSrc: 'https://github.com/simple-uploader/Uploader/blob/develop/README_zh-CN.md',
+        title: 'simple-uploader',
+      }, {
+        imgSrc: githubPng,
+        linkSrc: 'https://github.com/simple-uploader/vue-uploader/blob/master/README_zh-CN.md',
+        title: 'vueSimpleUpload-官',
+      }, {
+        imgSrc: cnblogPng,
+        linkSrc: 'https://www.cnblogs.com/xiahj/p/15950975.html',
+        title: 'vue-simple-uploader',
+        des: 'vue-simple-uploader 常见问题整理'
+      }, {
         imgSrc: 'https://avatars.githubusercontent.com/u/20945955?v=4',
         linkSrc: 'https://www.cnblogs.com/xiahj/p/vue-simple-uploader.html',
         title: 'vue-simple-uploader',
