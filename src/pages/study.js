@@ -6,6 +6,7 @@ import githubPng from '../asset/img/github-logo.png';
 import uikitPng from '../asset/img/uikit-logo.png';
 import es6Png from '../asset/img/es6-logo.png';
 import cnblogPng from '../asset/img/cnblog.ico';
+import webColorPng from '../asset/img/webColor.png';
 
 function Study() {
 
@@ -109,18 +110,23 @@ function Study() {
       }, {
         imgSrc: 'https://static.zhihu.com/heifetz/favicon.ico',
         linkSrc: 'https://zhuanlan.zhihu.com/p/84876191',
-        title: '函数对象原型链集成',
+        title: '函数对象原型链继承',
         des: "从面向对象设计角度，全面解读——JS中的函数与对象、Object与Function、以及原型链与继承",
       }, {
         imgSrc: 'https://gojs.net/favicon.ico',
         linkSrc: 'https://gojs.net/latest/index.html',
         githubSrc: 'https://github.com/NorthwoodsSoftware/GoJS',
-        title: 'JS创建图片图表图形',
+        title: 'GoJS-图片图表图形',
       }, {
         imgSrc: 'https://jsplumbtoolkit.com/img/favicon.ico',
         linkSrc: 'https://jsplumbtoolkit.com/',
         githubSrc: 'https://github.com/jsplumb/jsplumb',
         title: 'js-plumb视觉链接',
+      }, {
+        imgSrc: 'https://avatars.githubusercontent.com/u/16631306?s=48&v=4',
+        linkSrc: 'https://wdd.js.org/jsplumb-chinese-tutorial/#/',
+        githubSrc: 'https://github.com/wangduanduan/jsplumb-chinese-tutorial',
+        title: 'js-plumb中文教程',
       }]
     }, {
       key: '4',
@@ -130,6 +136,10 @@ function Study() {
         imgSrc: 'https://csscoco.com/inspiration/logo2.png',
         linkSrc: 'https://csscoco.com/inspiration/#/',
         title: 'CSS灵感',
+      }, {
+        imgSrc: webColorPng,
+        linkSrc: 'https://www.bootcss.com/p/websafecolors/',
+        title: 'Web安全色',
       }]
     }, {
       key: '5',

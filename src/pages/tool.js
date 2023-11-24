@@ -166,6 +166,11 @@ function Tool() {
         linkSrc: 'https://www.iloveimg.com/zh-cn',
         title: '图像文件在线编辑',
       }, {
+        imgSrc: 'https://jwenjian.github.io/gradex/favicon.ico',
+        linkSrc: 'https://jwenjian.github.io/gradex/',
+        githubSrc: 'https://github.com/jwenjian/gradex',
+        title: '图片->渐变色背景图',
+      }, {
         imgSrc: 'https://glowtxt.com/favicon-32.png',
         linkSrc: 'https://glowtxt.com/',
         title: '艺术字png&gif生成',
