@@ -162,6 +162,14 @@ function Tool() {
         linkSrc: 'https://blog.hubspot.com/website/top-free-online-font-generators',
         title: '17个免费字体生成器',
       }, {
+        imgSrc: 'https://www.qt86.com/favicon.ico',
+        linkSrc: 'https://www.qt86.com/',
+        title: '艺术字生成转换',
+      }, {
+        imgSrc: 'https://make.girls.moe/favicon.ico',
+        linkSrc: 'https://make.girls.moe/#/',
+        title: '二次元头像图片生成',
+      }, {
         imgSrc: 'https://www.codepng.app/favicon.ico',
         linkSrc: 'https://www.codepng.app/',
         title: '代码图片codeToPng',
@@ -169,6 +177,10 @@ function Tool() {
         imgSrc: 'https://simpleicons.org/images/favicon.ico',
         linkSrc: 'https://simpleicons.org/',
         title: 'simple icons',
+      }, {
+        imgSrc: 'https://squoosh.app/c/favicon-c9cf50ef.ico',
+        linkSrc: 'https://squoosh.app/',
+        title: '图片压缩转换-隐私',
       }]  
     }, {
       key: 'front-tool-site',
@@ -203,18 +215,6 @@ function Tool() {
         linkSrc: 'https://www.toolfk.com/',
         title: '工具人在线工具箱',
       }, {
-        imgSrc: 'https://www.explainshell.com/static/img/shell.png',
-        linkSrc: 'https://www.explainshell.com/',
-        title: 'Shell命令可视化解释',
-      }, {
-        imgSrc: 'https://squoosh.app/c/favicon-c9cf50ef.ico',
-        linkSrc: 'https://squoosh.app/',
-        title: '图片压缩转换-隐私',
-      }, {
-        imgSrc: 'https://www.qt86.com/favicon.ico',
-        linkSrc: 'https://www.qt86.com/',
-        title: '艺术字生成转换',
-      }, {
         imgSrc: 'https://cloudconvert.com/images/logo_flat_32.png',
         linkSrc: 'https://cloudconvert.com/',
         title: 'File Convert',
@@ -242,6 +242,10 @@ function Tool() {
         linkSrc: 'https://any-rule.vercel.app/',
         githubSrc: 'https://github.com/any86/any-rule',
         title: '常用正则大全',
+      }, {
+        imgSrc: 'https://regexper.com/favicon.ico',
+        linkSrc: 'https://regexper.com/',
+        title: 'JS风格正则解析',
       }]
     }, {
       key: 'front-video-music',

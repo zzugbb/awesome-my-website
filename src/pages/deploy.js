@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { Anchor } from 'antd';
 import { Card, Space, Typography, Image } from 'antd';
 import githubPng from '../asset/img/github-logo.png';
-import cnblogPng from '../asset/img/cnblog.ico'
+import cnblogPng from '../asset/img/cnblog.ico';
+import LinuxPng from '../asset/img/linux.ico';
 
 function Deploy() {
 
@@ -80,6 +81,32 @@ function Deploy() {
         imgSrc: 'https://g.csdnimg.cn/static/logo/favicon32.ico',
         linkSrc: 'https://blog.csdn.net/SYT_Boss/article/details/84101775',
         title: 'GitBook 安装',
+      }]
+    }, {
+      key: 'linux-nginx-docker-k8s',
+      href: '#linux-nginx-docker-k8s',
+      title: 'Linux&Nginx&Docker&K8s',
+      subData: [{
+        imgSrc: 'https://www.explainshell.com/static/img/shell.png',
+        linkSrc: 'https://www.explainshell.com/',
+        title: 'Shell命令可视化解释',
+      }, {
+        imgSrc: 'https://wangchujiang.com/linux-command/img/favicon.ico',
+        linkSrc: 'https://wangchujiang.com/linux-command/',
+        githubSrc: 'https://github.com/jaywcjlove/linux-command',
+        title: 'Linux命令搜索引擎',
+      }, {
+        imgSrc: LinuxPng,
+        linkSrc: 'https://man.linuxde.net/',
+        title: 'Linux命令大全',
+      }, {
+        imgSrc: 'https://www.digitalocean.com/_next/static/media/favicon.594d6067.ico',
+        linkSrc: 'https://www.digitalocean.com/community/tools/nginx?global.app.lang=zhCN',
+        title: 'NGINX 配置生成',
+      }, {
+        imgSrc: 'https://ruanyifeng.com/favicon.ico',
+        linkSrc: 'https://ruanyifeng.com/blog/2018/02/docker-tutorial.html',
+        title: 'Docker 入门-阮一峰',
       }]
     }, {
       key: 'gitOperation',

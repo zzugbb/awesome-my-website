@@ -27,6 +27,10 @@ function Study() {
         githubSrc: 'https://github.com/521xueweihan/HelloGitHub',
         title: 'HelloGitHub',
       }, {
+        imgSrc: 'https://risingstars.js.org/favicon.ico',
+        linkSrc: 'https://risingstars.js.org/2022/zh',
+        title: 'JavaScript 明星项目',
+      }, {
         imgSrc: githubPng,
         linkSrc: 'https://github.com/jobbole/awesome-programming-books',
         title: '经典编程书籍大全',
@@ -49,6 +53,11 @@ function Study() {
         linkSrc: 'https://zh.javascript.info/',
         githubSrc: 'https://github.com/javascript-tutorial/zh.javascript.info',
         title: '现代 JavaScript 教程',
+      }, {
+        imgSrc: 'https://avatars.githubusercontent.com/u/44827603?s=48&v=4',
+        linkSrc: 'https://lib-pku.github.io/',
+        githubSrc: 'https://github.com/lib-pku/libpku',
+        title: '贵校课程民间整理',
       }]
     }, {
       key: '2',
