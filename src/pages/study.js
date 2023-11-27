@@ -145,11 +145,6 @@ function Study() {
         imgSrc: webColorPng,
         linkSrc: 'https://www.bootcss.com/p/websafecolors/',
         title: 'Web安全色',
-      }, {
-        imgSrc: 'https://uigradients.com/static/images/favicon-32x32.png',
-        linkSrc: 'https://uigradients.com/#Mini',
-        title: '渐变色-Design Code',
-        githubSrc: 'https://github.com/Ghosh/uiGradients',
       }]
     }, {
       key: '5',

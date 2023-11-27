@@ -220,6 +220,11 @@ function Tool() {
         imgSrc: 'https://pic.netbian.com/favicon.ico',
         linkSrc: 'https://pic.netbian.com/4kbeijing/index_2.html',
         title: '4K背景壁纸-高清',
+      },  {
+        imgSrc: 'https://uigradients.com/static/images/favicon-32x32.png',
+        linkSrc: 'https://uigradients.com/#Mini',
+        title: '渐变色-Design Code',
+        githubSrc: 'https://github.com/Ghosh/uiGradients',
       }]
     }, {
       key: 'front-tool-site',
