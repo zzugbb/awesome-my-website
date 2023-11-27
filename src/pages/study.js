@@ -64,6 +64,11 @@ function Study() {
         imgSrc: 'https://www.php.cn/favicon.ico',
         linkSrc: 'https://www.php.cn/manual/view/35521.html',
         title: 'HTTP手册-CSP安全等',
+      }, {
+        imgSrc: 'https://reactchina.sxlcdn.com/uploads/default/optimized/2X/d/d63df37517ee7681c2fc2d881564d16e1f912453_2_32x32.png',
+        linkSrc: 'http://react-china.org/t/300-react-nodejs/27165',
+        title: '300集前后端视频',
+        des: 'React, Nodejs'
       }]
     }, {
       key: '2',
@@ -140,6 +145,11 @@ function Study() {
         imgSrc: webColorPng,
         linkSrc: 'https://www.bootcss.com/p/websafecolors/',
         title: 'Web安全色',
+      }, {
+        imgSrc: 'https://uigradients.com/static/images/favicon-32x32.png',
+        linkSrc: 'https://uigradients.com/#Mini',
+        title: '渐变色-Design Code',
+        githubSrc: 'https://github.com/Ghosh/uiGradients',
       }]
     }, {
       key: '5',

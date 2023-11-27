@@ -199,10 +199,28 @@ function Tool() {
         linkSrc: 'https://ikonate.com/#content',
         title: 'SVG icons',
       }, {
+        imgSrc: 'https://uploads-ssl.webflow.com/61d88cbe2069b94855d468db/61e0b3a79136f17068330c7c_Fav-32.png',
+        linkSrc: 'https://usepastel.com/blog/33-beautiful-free-icon-sets',
+        title: '33个免费的图标网站',
+      }, {
         imgSrc: 'https://squoosh.app/c/favicon-c9cf50ef.ico',
         linkSrc: 'https://squoosh.app/',
         title: '图片压缩转换-隐私',
       }]  
+    }, {
+      key: 'front-templates-site',
+      href: '#front-templates-site',
+      title: '开发模板&灵感',
+      subData: [{
+        imgSrc: 'https://html5up.net/assets/icons/favicon.ico',
+        linkSrc: 'https://html5up.net/',
+        title: '响应式H5网站模板',
+        des: "适配各种屏幕的H5和CSS3网站模板, 完全免费",
+      }, {
+        imgSrc: 'https://pic.netbian.com/favicon.ico',
+        linkSrc: 'https://pic.netbian.com/4kbeijing/index_2.html',
+        title: '4K背景壁纸-高清',
+      }]
     }, {
       key: 'front-tool-site',
       href: '#front-tool-site',
