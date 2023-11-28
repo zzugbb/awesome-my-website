@@ -61,10 +61,6 @@ function Study() {
         githubSrc: 'https://github.com/lib-pku/libpku',
         title: '贵校课程民间整理',
       }, {
-        imgSrc: 'https://www.php.cn/favicon.ico',
-        linkSrc: 'https://www.php.cn/manual/view/35521.html',
-        title: 'HTTP手册-CSP安全等',
-      }, {
         imgSrc: 'https://reactchina.sxlcdn.com/uploads/default/optimized/2X/d/d63df37517ee7681c2fc2d881564d16e1f912453_2_32x32.png',
         linkSrc: 'http://react-china.org/t/300-react-nodejs/27165',
         title: '300集前后端视频',

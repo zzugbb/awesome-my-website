@@ -118,6 +118,10 @@ function Deploy() {
       href: '#openssl',
       title: 'Openssl&网络协议',
       subData: [{
+        imgSrc: 'https://g.csdnimg.cn/static/logo/favicon32.ico',
+        linkSrc: 'https://blog.csdn.net/hbiao68/article/details/100527417',
+        title: 'nodeJs 执行系统命令',
+      }, {
         imgSrc: jianshu,
         linkSrc: 'https://www.jianshu.com/p/f6608e77a4da',
         title: 'OpenSSL 生成',
@@ -133,6 +137,22 @@ function Deploy() {
         imgSrc: cnblogPng,
         linkSrc: 'https://www.cnblogs.com/shenlinken/p/9968274.html',
         title: 'OpenSSL看证书细节',
+      }, {
+        imgSrc: 'https://www.php.cn/favicon.ico',
+        linkSrc: 'https://www.php.cn/manual/view/35521.html',
+        title: 'HTTP手册-CSP安全等',
+      }, {
+        imgSrc: 'https://www.gstatic.com/devrel-devsite/prod/va65162e8ce9aacc75e4d3c0cd6d166fc6ceaaf184fea0ff0eac1d9b62c0480be/web/images/favicon.png',
+        linkSrc: 'https://web.dev/articles/csp?hl=zh-cn',
+        title: '安全策略-Google',
+      }, {
+        imgSrc: cnblogPng,
+        linkSrc: 'https://www.cnblogs.com/heyuqing/p/6215761.html',
+        title: '前端安全-CSP',
+      }, {
+        imgSrc: 'https://g.csdnimg.cn/static/logo/favicon32.ico',
+        linkSrc: 'https://blog.csdn.net/liudoyang/article/details/103783039',
+        title: 'CSP-头缺失或不安全',
       }]
     }, {
       key: 'gitOperation',
