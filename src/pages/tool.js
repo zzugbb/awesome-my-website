@@ -171,6 +171,12 @@ function Tool() {
         githubSrc: 'https://github.com/jwenjian/gradex',
         title: '图片->渐变色背景图',
       }, {
+        imgSrc: 'https://icon.wuruihong.com/wrh/favicon-32x32.png',
+        linkSrc: 'https://icon.wuruihong.com/',
+        title: '图标工场-所有应用',
+        githubSrc: 'https://github.com/zhanghuanchong/icon-workshop',
+        des: '移动应用图标/启动图生成工具，一键生成所有尺寸的应用图标/启动图',
+      }, {
         imgSrc: 'https://glowtxt.com/favicon-32.png',
         linkSrc: 'https://glowtxt.com/',
         title: '艺术字png&gif生成',

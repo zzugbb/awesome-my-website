@@ -7,6 +7,8 @@ import uikitPng from '../asset/img/uikit-logo.png';
 import es6Png from '../asset/img/es6-logo.png';
 import cnblogPng from '../asset/img/cnblog.ico';
 import webColorPng from '../asset/img/webColor.png';
+import jianshu from '../asset/img/jianshu.ico';
+import taodudu from '../asset/img/taodudu.ico';
 
 function Study() {
 
@@ -90,6 +92,11 @@ function Study() {
         imgSrc: 'https://zos.alipayobjects.com/rmsportal/wIjMDnsrDoPPcIV.png',
         linkSrc: 'https://rn.mobile.ant.design/index-cn',
         title: 'AntD Mobile RN',
+      }, {
+        imgSrc: 'https://reactnavigation.org/img/favicon.ico',
+        linkSrc: 'https://reactnavigation.org/',
+        title: 'React Navigation',
+        des: 'Routing and navigation for Expo and React Native apps.',
       }]
     }, {
       key: '3',
@@ -171,6 +178,18 @@ function Study() {
         imgSrc: 'https://www.geekailab.com/img/favicon.ico',
         linkSrc: 'https://github.com/crazycodeboy/RNStudyNotes',
         title: 'RN 研究与实践',
+      }, {
+        imgSrc: jianshu,
+        linkSrc: 'https://www.jianshu.com/p/727c6057fc0a',
+        title: 'RN 名称图标启动页',
+      }, {
+        imgSrc: taodudu,
+        linkSrc: 'http://www.taodudu.cc/news/show-5281656.html?action=onClick',
+        title: 'RN Android键盘遮挡',
+      }, {
+        imgSrc: cnblogPng,
+        linkSrc: 'https://www.cnblogs.com/tsxblog/p/13026649.html',
+        title: 'antd mobile图标异常',
       }]
     }, {
       key: '7',
