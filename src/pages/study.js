@@ -93,6 +93,11 @@ function Study() {
         linkSrc: 'https://rn.mobile.ant.design/index-cn',
         title: 'AntD Mobile RN',
       }, {
+        imgSrc: 'https://reactnativeelements.com/img/website/logo.png',
+        linkSrc: 'https://reactnativeelements.com/',
+        title: 'RN Elements',
+        des: 'Cross Platform React Native UI toolkit',
+      }, {
         imgSrc: 'https://reactnavigation.org/img/favicon.ico',
         linkSrc: 'https://reactnavigation.org/',
         title: 'React Navigation',
@@ -190,6 +195,39 @@ function Study() {
         imgSrc: cnblogPng,
         linkSrc: 'https://www.cnblogs.com/tsxblog/p/13026649.html',
         title: 'antd mobile图标异常',
+      }, {
+        imgSrc: 'https://g.csdnimg.cn/static/logo/favicon32.ico',
+        linkSrc: 'https://blog.csdn.net/qq_33721382/article/details/108333691',
+        title: 'RN 不信任的 HTTPS',
+        des: 'React-Native, Android端解决无法访问不受信任HTTPS证书服务器的问题',
+      }, {
+        imgSrc: 'https://g.csdnimg.cn/static/logo/favicon32.ico',
+        linkSrc: 'https://blog.csdn.net/qq_25462179/article/details/119885631',
+        title: 'RN 信任管理器',
+        des: 'Unable to extract the trust manager on Android10Platform',
+      }, {
+        imgSrc: 'https://g.csdnimg.cn/static/logo/favicon32.ico',
+        linkSrc: 'https://blog.csdn.net/CHZKAL/article/details/106250966',
+        title: 'RN 信任管理器',
+        des: 'Unable to extract the trust manager on Android10Platform',
+      }, {
+        imgSrc: cnblogPng,
+        linkSrc: 'https://www.cnblogs.com/fnlingnzb-learner/p/7239614.html',
+        title: 'And权限permission',
+        des: 'Android权限操作之uses-permission详解'
+      }, {
+        imgSrc: jianshu,
+        linkSrc: 'https://www.jianshu.com/p/4a93206a6025',
+        title: '腾讯加固-二次签名',
+      }, {
+        imgSrc: 'https://g.csdnimg.cn/static/logo/favicon32.ico',
+        linkSrc: 'https://blog.csdn.net/spy2000/article/details/121672812',
+        title: '腾讯加固-二次签名',
+        des: 'APK加固+重签名后, 在Android 12手机上解析错误, 无法安装的解决办法',
+      }, {
+        imgSrc: 'https://cloudcache.tencentcs.com/open_proj/proj_qcloud_v2/gateway/shareicons/cloud.png',
+        linkSrc: 'https://cloud.tencent.com/developer/article/2061240',
+        title: '腾讯加固zipalign对齐',
       }]
     }, {
       key: '7',
