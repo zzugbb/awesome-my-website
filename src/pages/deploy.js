@@ -138,6 +138,10 @@ function Deploy() {
         linkSrc: 'https://www.cnblogs.com/shenlinken/p/9968274.html',
         title: 'OpenSSL看证书细节',
       }, {
+        imgSrc: 'https://g.csdnimg.cn/static/logo/favicon32.ico',
+        linkSrc: 'https://blog.csdn.net/rennaiqian/article/details/79599536',
+        title: 'Node启https服务器',
+      }, {
         imgSrc: 'https://www.php.cn/favicon.ico',
         linkSrc: 'https://www.php.cn/manual/view/35521.html',
         title: 'HTTP手册-CSP安全等',

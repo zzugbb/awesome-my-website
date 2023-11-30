@@ -228,6 +228,29 @@ function Study() {
         imgSrc: 'https://cloudcache.tencentcs.com/open_proj/proj_qcloud_v2/gateway/shareicons/cloud.png',
         linkSrc: 'https://cloud.tencent.com/developer/article/2061240',
         title: '腾讯加固zipalign对齐',
+      }, {
+        imgSrc: 'https://g.csdnimg.cn/static/logo/favicon32.ico',
+        linkSrc: 'https://blog.csdn.net/happy6115/article/details/78732237/',
+        title: 'Android完整性校验',
+        des: 'Android客户端代码保护技术-完整性校验',
+      }, {
+        imgSrc: 'https://avatars.githubusercontent.com/u/8335303?s=48&v=4',
+        linkSrc: 'https://github.com/shwenzhang/AndResGuard/blob/master/README.zh-cn.md',
+        title: 'AndResGuard混淆',
+        des: 'Android资源混淆工具使用说明',
+      }, {
+        imgSrc: 'https://avatars.githubusercontent.com/u/26186607?s=48&v=4',
+        linkSrc: 'https://github.com/Leon406/AndResGuard',
+        title: 'AndResGuard-fix'
+      }, {
+        imgSrc: 'https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/static/favicons/favicon-32x32.png',
+        linkSrc: 'https://juejin.cn/post/6844903958176071687',
+        title: 'AndResGuard使用'
+      }, {
+        imgSrc: jianshu,
+        linkSrc: 'https://www.jianshu.com/p/946e3160ea35',
+        title: 'AndResGuard瘦身',
+        des: 'Android apk瘦身最佳实践(四)：采用AndResGuard进行资源混淆',
       }]
     }, {
       key: '7',
@@ -265,6 +288,42 @@ function Study() {
         imgSrc: githubPng,
         linkSrc: 'https://github.com/uncleLian/vue2-echo',
         title: 'DEMO-Vue2-echo',
+      }]
+    }, {
+      key: 'request',
+      href: '#front-request',
+      title: 'Axios&Request',
+      subData: [{
+        imgSrc: 'https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/static/favicons/favicon-32x32.png',
+        linkSrc: 'https://juejin.cn/post/6955610207036801031',
+        title: 'Axios 取消重复请求'
+      }, {
+        imgSrc: 'https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/static/favicons/favicon-32x32.png',
+        linkSrc: 'https://juejin.cn/post/7034827130701611016',
+        title: '完整过一遍 Axios'
+      }, {
+        imgSrc: jianshu,
+        linkSrc: 'https://www.jianshu.com/p/7e60fc1be1b2',
+        title: 'Promise.all race',
+        des: '理解和使用Promise.all和Promise.race',
+      }, {
+        imgSrc: jianshu,
+        linkSrc: 'https://www.jianshu.com/p/3a1b07adfe9e',
+        title: 'Axios 下载',
+        des: 'Axios发送post请求下载文件',
+      }, {
+        imgSrc: jianshu,
+        linkSrc: 'https://www.jianshu.com/p/269a0bc7fa8a',
+        title: 'Axios 预览PDF',
+        des: '前端接收pdf文件流实现预览pdf文件',
+      }, {
+        imgSrc: cnblogPng,
+        linkSrc: 'https://www.cnblogs.com/chaoyuehedy/p/9931146.html',
+        title: 'Vue中Axios封装',
+      }, {
+        imgSrc: jianshu,
+        linkSrc: 'https://www.jianshu.com/p/31f52aade33d',
+        title: 'Axios 在Vue项目封装',
       }]
     }, {
       key: '8',
