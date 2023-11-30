@@ -89,6 +89,14 @@ function Study() {
         linkSrc: 'https://ant-design.antgroup.com/index-cn',
         title: 'Ant Design',
       }, {
+        imgSrc: 'https://gw.alipayobjects.com/zos/rmsportal/XPHxlVUyZBsQhXBPheZl.png',
+        linkSrc: 'https://landing.ant.design/index-cn',
+        title: 'Antd landing-首页',
+      }, {
+        imgSrc: 'https://mdn.alipayobjects.com/huamei_qa8qxu/afts/img/A*7svFR6wkPMoAAAAAAAAAAAAADmJ7AQ/original',
+        linkSrc: 'https://antv.antgroup.com/',
+        title: 'AntV·让数据栩栩如生',
+      }, {
         imgSrc: 'https://zos.alipayobjects.com/rmsportal/wIjMDnsrDoPPcIV.png',
         linkSrc: 'https://rn.mobile.ant.design/index-cn',
         title: 'AntD Mobile RN',
@@ -120,11 +128,6 @@ function Study() {
         imgSrc: 'http://www.htmleaf.com/templets/default/images/ico/apple-touch-icon-72.png',
         linkSrc: 'http://www.htmleaf.com/',
         title: 'jQuery之家',
-      }, {
-        imgSrc: 'https://static.zhihu.com/heifetz/favicon.ico',
-        linkSrc: 'https://zhuanlan.zhihu.com/p/84876191',
-        title: '函数对象原型链继承',
-        des: "从面向对象设计角度，全面解读——JS中的函数与对象、Object与Function、以及原型链与继承",
       }, {
         imgSrc: 'https://gojs.net/favicon.ico',
         linkSrc: 'https://gojs.net/latest/index.html',
@@ -159,6 +162,10 @@ function Study() {
       href: '#front-react',
       title: 'React',
       subData: [{
+        imgSrc: 'https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/static/favicons/favicon-32x32.png',
+        linkSrc: 'https://juejin.cn/post/7118937685653192735',
+        title: 'Hooks 使用大全'
+      }, {
         imgSrc: githubPng,
         linkSrc: 'https://github.com/adam-golab/react-developer-roadmap',
         title: 'React 学习路线',

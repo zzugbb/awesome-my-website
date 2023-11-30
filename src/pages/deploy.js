@@ -159,6 +159,15 @@ function Deploy() {
         title: 'CSP-头缺失或不安全',
       }]
     }, {
+      key: 'webpack-build',
+      href: '#webpack-build',
+      title: '打包 相关',
+      subData: [{
+        imgSrc: 'https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/static/favicons/favicon-32x32.png',
+        linkSrc: 'https://juejin.cn/post/6970998019865083911',
+        title: 'Gulp 回顾'
+      }]
+    }, {
       key: 'gitOperation',
       href: '#gitOperation',
       title: 'Git 相关',

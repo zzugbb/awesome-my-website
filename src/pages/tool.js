@@ -96,6 +96,10 @@ function Tool() {
         linkSrc: 'https://github.com/zhaoolee/ChromeAppHeroes/tree/master',
         title: 'Chrome插件英雄榜',
       }, {
+        imgSrc: 'https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/static/favicons/favicon-32x32.png',
+        linkSrc: 'https://juejin.cn/post/7225992011723538490',
+        title: '教你写Chrome插件',
+      }, {
         imgSrc: 'https://avatars.githubusercontent.com/u/14891797?s=48&v=4',
         linkSrc: 'https://github.com/fhefh2015/Fast-GitHub',
         title: 'Github下载加速插件',
@@ -117,6 +121,19 @@ function Tool() {
         imgSrc: 'https://avatars.githubusercontent.com/u/7380510?s=48&v=4',
         linkSrc: 'https://github.com/geekcompany/ResumeSample',
         title: ' 程序员简历模板系列',
+      }, {
+        imgSrc: 'https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/static/favicons/favicon-32x32.png',
+        linkSrc: 'https://juejin.cn/post/7016593221815910408',
+        title: '前端八股文',
+      }, {
+        imgSrc: 'https://static.zhihu.com/heifetz/favicon.ico',
+        linkSrc: 'https://zhuanlan.zhihu.com/p/84876191',
+        title: '函数对象原型链继承',
+        des: "从面向对象设计角度，全面解读——JS中的函数与对象、Object与Function、以及原型链与继承",
+      }, {
+        imgSrc: 'https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/static/favicons/favicon-32x32.png',
+        linkSrc: 'https://juejin.cn/post/6844904200917221389',
+        title: '66条JavaScript面试点',
       }, {
         imgSrc: 'https://lucifer.ren/favicon.ico',
         linkSrc: 'https://lucifer.ren/fe-interview/#/',
@@ -218,6 +235,11 @@ function Tool() {
       href: '#front-templates-site',
       title: '开发模板&灵感',
       subData: [{
+        imgSrc: 'https://cdn.dribbble.com/assets/favicon-585500d983ec4736f92c6ec337609b2c9ffd160296dc93182f5c6e55c39cb569.ico',
+        linkSrc: 'https://dribbble.com/',
+        title: '网站模板-3D图片',
+        des: "Discover the world’s top designers & creatives",
+      }, {
         imgSrc: 'https://html5up.net/assets/icons/favicon.ico',
         linkSrc: 'https://html5up.net/',
         title: '响应式H5网站模板',
@@ -368,6 +390,10 @@ function Tool() {
         imgSrc: 'https://fe-nav.netlify.app/favicon.ico',
         linkSrc: 'https://fe-nav.netlify.app/nav/',
         title: '前端导航 | 茂茂物语',
+      }, {
+        imgSrc: 'https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/static/favicons/favicon-32x32.png',
+        linkSrc: 'https://juejin.cn/post/7242127432203173948',
+        title: '个人网站 | 设计感想',
       }]
     }
   ])
