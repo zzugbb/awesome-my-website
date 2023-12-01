@@ -1,12 +1,16 @@
 import React, { useEffect, useState } from 'react';
-import { Tag } from 'antd';
+import { Tag, FloatButton } from 'antd';
 import {
+  HomeOutlined,
   EyeOutlined,
   UserOutlined
 } from '@ant-design/icons';
+import { useNavigate } from "react-router-dom";
 
 
 function FooterLayout() {
+
+  const navigate = useNavigate();
 
   const [day, setDay] = useState(0);
   const [hour, setHour] = useState(0);
@@ -30,6 +34,10 @@ function FooterLayout() {
     };
   }, [])
 
+  const handleClickHome = () => {
+    navigate('/');
+  }
+
   return (
     <div className='bottom-div'>
       <p>
@@ -48,6 +56,8 @@ function FooterLayout() {
           <Tag color="purple"><span id="busuanzi_value_site_uv"></span></Tag>
         </span>
       </p>
+      <FloatButton.BackTop visibilityHeight={20} style={{bottom:'120px',right:'80px'}}/>
+      <FloatButton shape="square" type="primary" style={{bottom:'120px',right: '24px'}} icon={<HomeOutlined />} onClick={handleClickHome}/>
     </div>
   );
 }

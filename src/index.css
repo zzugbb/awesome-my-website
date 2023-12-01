@@ -219,3 +219,7 @@ body {
 .gt-container {
   text-align: left;
 }
+
+.ant-float-btn-primary .ant-float-btn-body {
+  background: linear-gradient(to right, #348f50, #56b4d3);
+}

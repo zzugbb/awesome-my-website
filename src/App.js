@@ -1,5 +1,6 @@
 import { HashRouter, Routes, Route } from "react-router-dom";
-import { FloatButton } from 'antd';
+
+import MainPage from "./pages/mainPage";
 
 import TopLayout from "./layout/topLayout";
 
@@ -14,21 +15,45 @@ import FooterLayout from "./layout/footerLayout";
 function App() {
   return (
     <HashRouter>
-      <TopLayout/>
-      <a href="https://github.com/zzugbb" target="_blank" rel="noreferrer" style={{position:'fixed', right: 0, top:0, zIndex: 9999}}>
-        <img decoding="async" width="149" height="149" 
-          src="https://github.blog/wp-content/uploads/2008/12/forkme_right_green_007200.png?resize=149%2C149" 
-          alt="Fork me on GitHub" loading="lazy" data-recalc-dims="1"/>
-      </a>
       <Routes>
-        <Route path="/" element={<Study />} />
-        <Route path="/tool" element={<Tool />} />
-        <Route path="/deploy" element={<Deploy />} />
-        <Route path="/life" element={<Life />} />
-        <Route path="/about" element={<About />} />
+        <Route exact path="/" element={<MainPage />} />
+        <Route path="/study" element={
+          <>
+            <TopLayout/>
+            <Study />
+            <FooterLayout/>
+          </>
+        }>
+        </Route>
+        <Route path="/tool" element={
+          <>
+            <TopLayout/>
+            <Tool />
+            <FooterLayout/>
+          </>
+        }/>
+        <Route path="/deploy" element={
+          <>
+            <TopLayout/>
+            <Deploy />
+            <FooterLayout/>
+          </>
+        }/>
+        <Route path="/life" element={
+          <>
+            <TopLayout/>
+            <Life/>
+            <FooterLayout/>
+          </>
+        }/>
+        <Route path="/about" element={
+          <>
+            <TopLayout/>
+            <About />
+            <FooterLayout/>
+          </>
+        } />
       </Routes>
-      <FloatButton.BackTop visibilityHeight={20} style={{bottom:'150px',right:'80px'}}/>
-      <FooterLayout/>
     </HashRouter>
   );
 }

@@ -11,24 +11,21 @@ function TopLayout() {
   const [currentMenu, setCurrentMenu] = useState('study');
 
   useEffect(() => {
-    if (location.pathname === '/') {
-      setCurrentMenu('study');
-    } else {
-      setCurrentMenu(location.pathname.replace('/', ''));
-    }
+    setCurrentMenu(location.pathname.replace('/', ''));
   }, [location]);
 
   const handleClickMenu = (e) => {
     setCurrentMenu(e);
-    if (e === 'study') {
-      navigate('/');
-    } else {
-      navigate('/' + e);
-    }
+    navigate('/' + e);
   }
 
   return (
     <div className='top-div'>
+      <a href="https://github.com/zzugbb" target="_blank" rel="noreferrer" style={{position:'fixed', right: 0, top:0, zIndex: 9999}}>
+        <img decoding="async" width="149" height="149" 
+          src="https://github.blog/wp-content/uploads/2008/12/forkme_right_green_007200.png?resize=149%2C149" 
+          alt="Fork me on GitHub" loading="lazy" data-recalc-dims="1"/>
+      </a>
       <div className='top-div-main'>
         <div className='logo-div'>
           <img src={logo} alt="logo" style={{height:60,margin:2}}/>
