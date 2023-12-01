@@ -135,6 +135,10 @@ function Tool() {
         linkSrc: 'https://juejin.cn/post/6844904200917221389',
         title: '66条JavaScript面试点',
       }, {
+        imgSrc: 'https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/static/favicons/favicon-32x32.png',
+        linkSrc: 'https://juejin.cn/post/7269952188927017015',
+        title: 'post发两次请求?',
+      }, {
         imgSrc: 'https://lucifer.ren/favicon.ico',
         linkSrc: 'https://lucifer.ren/fe-interview/#/',
         githubSrc: 'https://github.com/azl397985856/fe-interview',

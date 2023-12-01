@@ -109,6 +109,11 @@ body {
   height: 64px;
   background-color: #fff;
   box-shadow: 5px 5px 5px #1919192b;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
 }
 
 .top-div-main {
@@ -157,7 +162,7 @@ body {
 .main-div {
   min-height: calc(100vh - 196px);
   width: 1200px;
-  margin: 0 auto;
+  margin: 64px auto 0 auto;
   padding: 16px;
   display: flex;
 }
