@@ -1,9 +1,13 @@
 {
   "files": {
-    "main.css": "/awesome-my-website/static/css/main.02edeebc.css",
-    "main.js": "/awesome-my-website/static/js/main.36cc7308.js",
+    "main.css": "/awesome-my-website/static/css/main.3d6ea83b.css",
+    "main.js": "/awesome-my-website/static/js/main.7d2a1199.js",
     "static/js/787.ecf73e06.chunk.js": "/awesome-my-website/static/js/787.ecf73e06.chunk.js",
+    "static/media/3d.gif": "/awesome-my-website/static/media/3d.6b022a4ad0033be242fe.gif",
+    "static/media/bg.jpg": "/awesome-my-website/static/media/bg.33855a3baed305ae878b.jpg",
+    "static/media/awe.gif": "/awesome-my-website/static/media/awe.60643cdccfab3a9d8ac2.gif",
     "static/media/HelloImg.gif": "/awesome-my-website/static/media/HelloImg.6d10dd1962937795e5c1.gif",
+    "static/media/3d2.gif": "/awesome-my-website/static/media/3d2.340ce3ca5e371d0dfd9b.gif",
     "static/media/logo3.png": "/awesome-my-website/static/media/logo3.c99ab68360741c4ac858.png",
     "static/media/logo.png": "/awesome-my-website/static/media/logo.444f921381de3fa63001.png",
     "static/media/taodudu.ico": "/awesome-my-website/static/media/taodudu.42607578e87311457af7.ico",
@@ -11,12 +15,12 @@
     "static/media/cnblog.ico": "/awesome-my-website/static/media/cnblog.2231a7bde59ea3a48953.ico",
     "static/media/linux.ico": "/awesome-my-website/static/media/linux.7c2c3dde71467da0be7d.ico",
     "index.html": "/awesome-my-website/index.html",
-    "main.02edeebc.css.map": "/awesome-my-website/static/css/main.02edeebc.css.map",
-    "main.36cc7308.js.map": "/awesome-my-website/static/js/main.36cc7308.js.map",
+    "main.3d6ea83b.css.map": "/awesome-my-website/static/css/main.3d6ea83b.css.map",
+    "main.7d2a1199.js.map": "/awesome-my-website/static/js/main.7d2a1199.js.map",
     "787.ecf73e06.chunk.js.map": "/awesome-my-website/static/js/787.ecf73e06.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.02edeebc.css",
-    "static/js/main.36cc7308.js"
+    "static/css/main.3d6ea83b.css",
+    "static/js/main.7d2a1199.js"
   ]
 }
