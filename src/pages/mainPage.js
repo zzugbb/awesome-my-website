@@ -20,7 +20,10 @@ function MainPage() {
           src={aweGif} 
           preview={false}
         />
-        <div className="button-hand" style={{marginTop:50,position:'relative'}}>
+        <div style={{marginTop:30}}>
+          <p style={{height:'30px',lineHeight:'30px',color:'#fff',fontSize:'22px',fontWeight:'bold',fontFamily:'fangsong'}}>一个在工作、生活、娱乐的某个阶段, 给过帮助或者使用或者参考的网站书签汇总. </p>
+        </div>
+        <div className="button-hand" style={{marginTop:70,position:'relative'}}>
           <button onClick={handleClickToMenu}>Click to enter!<div className="hands"></div></button>
           <div style={{position:'absolute', left: '250px', bottom: '-80px'}}>  
             <Image 
@@ -31,8 +34,9 @@ function MainPage() {
           </div>
         </div>
       </div>
-      <div style={{position:'absolute', right: 100, bottom: '10%'}}>
+      <div style={{position:'absolute', right: 50, bottom: 50}}>
         <Image 
+          style={{width:300}}
           src={anGif} 
           preview={false}
         />
