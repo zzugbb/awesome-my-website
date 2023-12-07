@@ -114,6 +114,15 @@ function Deploy() {
         title: 'Docker 入门-阮一峰',
       }]
     }, {
+      key: 'node&npm',
+      href: '#node&npm',
+      title: 'NodeJs&npm包管理',
+      subData: [{
+        imgSrc: 'https://static.zhihu.com/heifetz/favicon.ico',
+        linkSrc: 'https://zhuanlan.zhihu.com/p/627321881',
+        title: '升级项目依赖到最新',
+      }]
+    }, {
       key: 'openssl',
       href: '#openssl',
       title: 'Openssl&网络协议',

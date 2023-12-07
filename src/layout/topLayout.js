@@ -12,6 +12,13 @@ function TopLayout() {
 
   useEffect(() => {
     setCurrentMenu(location.pathname.replace('/', ''));
+    if (window.scrollY > 0 && window.scrollTo) {
+      window.scrollTo({
+        left: 0,
+        top: 0,
+        behavior: 'smooth'
+      }); 
+    }
   }, [location]);
 
   const handleClickMenu = (e) => {

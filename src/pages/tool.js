@@ -183,6 +183,10 @@ function Tool() {
         linkSrc: 'https://www.remove.bg/zh',
         title: '在线抠图背景消除',
       }, {
+        imgSrc: 'https://www.unscreen.com/favicon-32x32.png',
+        linkSrc: 'https://www.unscreen.com/',
+        title: 'GIF抠图背景消除',
+      }, {
         imgSrc: 'https://www.iloveimg.com/img/favicons-img/favicon-16x16.png',
         linkSrc: 'https://www.iloveimg.com/zh-cn',
         title: '图像文件在线编辑',
