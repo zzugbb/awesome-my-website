@@ -4,6 +4,7 @@ import { Card, Space, Typography, Image } from 'antd';
 import rapPng from '../asset/img/rap-logo.png';
 import githubPng from '../asset/img/github-logo.png';
 import cnblogPng from '../asset/img/cnblog.ico';
+import jianshu from '../asset/img/jianshu.ico';
 
 function Tool() {
 
@@ -343,6 +344,29 @@ function Tool() {
         des: '10 Best HTML5 Audio Players',
       }]
     }, {
+      key: 'front-template',
+      href: '#front-template',
+      title: '渲染模板',
+      subData: [{
+        imgSrc: 'https://avatars.githubusercontent.com/u/1791748?s=48&v=4',
+        linkSrc: 'https://aui.github.io/art-template/zh-cn/index.html',
+        githubSrc: 'https://github.com/aui/art-template',
+        title: 'art-template',
+      }, {
+        imgSrc: 'https://nunjucks.bootcss.com/img/favicon.png',
+        linkSrc: 'https://nunjucks.bootcss.com/',
+        title: 'Nunjucks',
+      }, {
+        imgSrc: 'https://avatars.githubusercontent.com/u/757?s=48&v=4',
+        linkSrc: 'https://ejs.bootcss.com/',
+        githubSrc: 'https://github.com/mde/ejs',
+        title: 'EJS',
+      }, {
+        imgSrc: 'https://handlebarsjs.com/images/favicon.png',
+        linkSrc: 'https://handlebarsjs.com/zh/',
+        title: 'Handlebars',
+      }]
+    }, {
       key: 'front-online-edit',
       href: '#front-online-edit',
       title: '编辑器&在线编辑&数学公式',
@@ -381,6 +405,28 @@ function Tool() {
         linkSrc: 'http://mathquill.com/',
         title: 'MathQuill',
         des: 'Easily type math in your webapp'
+      }]
+    }, {
+      key: 'front-page-setting',
+      href: '#front-page-setting',
+      title: '页面可视化搭建配置',
+      subData: [{
+        imgSrc: 'https://static.segmentfault.com/main_site_next/71562539/touch-icon.png',
+        linkSrc: 'https://segmentfault.com/a/1190000014963740',
+        githubSrc: 'https://github.com/CntChen/cntchen.github.io/issues/15',
+        title: '页面可视化搭建工具',
+      }, {
+        imgSrc: jianshu,
+        linkSrc: 'https://www.jianshu.com/p/8bb5a1bdeae2',
+        title: '可配置前端页面方案',
+      }, {
+        imgSrc: 'https://awps-assets.meituan.net/mit/blog/v20190629/asset/icon/favicon.ico?v=Whistle&t=20181017-1r',
+        linkSrc: 'https://tech.meituan.com/2017/03/09/waimai-lego.html',
+        title: '美团可视化界面组装',
+      }, {
+        imgSrc: 'https://static001.infoq.cn/static/infoq/www/img/share-default-5tgbiuhgfefgujjhg.png',
+        linkSrc: 'https://www.infoq.cn/article/A4610ba*mtsd2Jr5leHV',
+        title: '高扩展在线网页制作',
       }]
     }, {
       key: 'front-same-website',
