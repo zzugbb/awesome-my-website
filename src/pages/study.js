@@ -385,6 +385,23 @@ function Study() {
         githubSrc: 'https://github.com/mrdoob/three.js',
         title: 'Three.js',
       }, {
+        imgSrc: 'http://www.webgl3d.cn/img/favicon.ico',
+        linkSrc: 'http://www.webgl3d.cn/',
+        title: 'Three.js中文网',
+      }, {
+        imgSrc: 'https://g.csdnimg.cn/static/logo/favicon32.ico',
+        linkSrc: 'https://blog.csdn.net/birdflyto206/article/details/52414405',
+        title: 'Three加载和使用纹理',
+      }, {
+        imgSrc: 'https://g.csdnimg.cn/static/logo/favicon32.ico',
+        linkSrc: 'https://blog.csdn.net/u014291990/article/details/103023440',
+        title: 'CanvasTexture',
+        des: 'Canvas画布作为Three.js纹理贴图(CanvasTexture)'
+      }, {
+        imgSrc: 'https://cloudcache.tencentcs.com/open_proj/proj_qcloud_v2/gateway/shareicons/cloud.png',
+        linkSrc: 'https://cloud.tencent.com/developer/article/1665490',
+        title: 'vue 中使用threejs',
+      }, {
         imgSrc: 'https://giojs.org/assets/images/logoTitle.ico',
         linkSrc: 'https://giojs.org/index_zh.html',
         title: 'Gio.js 地球可视化',

@@ -121,6 +121,15 @@ function Deploy() {
         imgSrc: 'https://static.zhihu.com/heifetz/favicon.ico',
         linkSrc: 'https://zhuanlan.zhihu.com/p/627321881',
         title: '升级项目依赖到最新',
+      }, {
+        imgSrc: jianshu,
+        linkSrc: 'https://www.jianshu.com/p/919f3e288e5a',
+        title: 'eggjs的日志使用指南',
+      }, {
+        imgSrc: githubPng,
+        linkSrc: 'https://github.com/eggjs/egg/issues/3523',
+        title: 'Egg Static 路由捕获',
+        des: '如何在static捕获路由之前, 通过router来提前捕获一个静态资源路由?'
       }]
     }, {
       key: 'openssl',
