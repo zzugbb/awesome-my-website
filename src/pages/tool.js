@@ -121,7 +121,16 @@ function Tool() {
       }, {
         imgSrc: 'https://avatars.githubusercontent.com/u/7380510?s=48&v=4',
         linkSrc: 'https://github.com/geekcompany/ResumeSample',
-        title: ' 程序员简历模板系列',
+        title: '程序员简历模板系列',
+      }, {
+        imgSrc: 'https://avatars.githubusercontent.com/u/20625845?s=48&v=4',
+        linkSrc: 'https://nzbin.github.io/resume-boilerplate/',
+        githubSrc: 'https://github.com/nzbin/resume-boilerplate',
+        title: '前端简历模板',
+      }, {
+        imgSrc: 'https://static.developers.pub/8a71a71bc1ae403cbeb5b8e6230cb016.ico',
+        linkSrc: 'https://www.developers.pub/resume',
+        title: '开发者客栈-简历模板',
       }, {
         imgSrc: 'https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/static/favicons/favicon-32x32.png',
         linkSrc: 'https://juejin.cn/post/7016593221815910408',
@@ -137,8 +146,20 @@ function Tool() {
         title: '66条JavaScript面试点',
       }, {
         imgSrc: 'https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/static/favicons/favicon-32x32.png',
+        linkSrc: 'https://juejin.cn/post/6844904115428917255',
+        title: '中级前端面试秘籍',
+      }, {
+        imgSrc: 'https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/static/favicons/favicon-32x32.png',
         linkSrc: 'https://juejin.cn/post/7269952188927017015',
         title: 'post发两次请求?',
+      }, {
+        imgSrc: 'https://codetop.cc/logo.jpg',
+        linkSrc: 'https://codetop.cc/home',
+        title: 'CodeTop大厂题库',
+      }, {
+        imgSrc: 'https://q.shanyue.tech/favicon.ico',
+        linkSrc: 'https://q.shanyue.tech/',
+        title: '大厂面试每日一题',
       }, {
         imgSrc: 'https://lucifer.ren/favicon.ico',
         linkSrc: 'https://lucifer.ren/fe-interview/#/',
@@ -154,6 +175,15 @@ function Tool() {
         linkSrc: 'https://i-want-offer.github.io/FE-Essay/',
         githubSrc: 'https://github.com/i-want-offer/FE-Essay',
         title: '前端知识及面试题',
+      }, {
+        imgSrc: 'https://avatars.githubusercontent.com/u/37846378?s=48&v=4',
+        linkSrc: 'https://github.com/ltadpoles/web-document',
+        title: '前端学习历程-笔记',
+      }, {
+        imgSrc: 'https://avatars.githubusercontent.com/u/31833528?s=48&v=4',
+        linkSrc: 'http://www.h-camel.com/index.html',
+        githubSrc: 'https://github.com/haizlin/fe-interview',
+        title: '前端面试每日 3+1',
       }, {
         imgSrc: 'https://avatars.githubusercontent.com/u/1035487?s=48&v=4',
         linkSrc: 'https://github.com/yifeikong/reverse-interview-zh',
