@@ -147,6 +147,30 @@ function Study() {
         linkSrc: 'https://wdd.js.org/jsplumb-chinese-tutorial/#/',
         githubSrc: 'https://github.com/wangduanduan/jsplumb-chinese-tutorial',
         title: 'js-plumb中文教程',
+      }, {
+        imgSrc: 'https://g.csdnimg.cn/static/logo/favicon32.ico',
+        linkSrc: 'https://blog.csdn.net/time__flies_/article/details/72177229',
+        title: '弹出窗口拦截解决',
+      }, {
+        imgSrc: cnblogPng,
+        linkSrc: 'https://www.cnblogs.com/sunshq/p/7922182.html',
+        title: 'import和require区别',
+      }, {
+        imgSrc: jianshu,
+        linkSrc: 'https://www.jianshu.com/p/e5e490d47c42',
+        title: '判断元素是否在屏幕',
+      }, {
+        imgSrc: 'https://www.jb51.net/favicon.ico',
+        linkSrc: 'https://www.jb51.net/article/104047.htm',
+        title: '判断dom是否在屏幕',
+      }, {
+        imgSrc: cnblogPng,
+        linkSrc: 'https://www.cnblogs.com/xieyongbin/p/11274959.html',
+        title: 'scrollTo,scrollBy兼容',
+      }, {
+        imgSrc: cnblogPng,
+        linkSrc: 'https://www.cnblogs.com/shenjp/p/6958710.html',
+        title: '获取浏览器内核版本',
       }]
     }, {
       key: '4',
