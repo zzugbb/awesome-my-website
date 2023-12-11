@@ -110,6 +110,10 @@ function Study() {
         linkSrc: 'https://reactnavigation.org/',
         title: 'React Navigation',
         des: 'Routing and navigation for Expo and React Native apps.',
+      }, {
+        imgSrc: 'https://formidable.com/open-source/victory/favicon/favicon.ico',
+        linkSrc: 'https://formidable.com/open-source/victory/docs/native',
+        title: 'victory-native',
       }]
     }, {
       key: '3',
@@ -179,6 +183,10 @@ function Study() {
       href: '#front-react-native',
       title: 'React Native',
       subData: [{
+        imgSrc: jianshu,
+        linkSrc: 'https://www.jianshu.com/p/18fd4b438958',
+        title: 'RN常用三方组件库',
+      }, {
         imgSrc: 'https://www.geekailab.com/img/favicon.ico',
         linkSrc: 'https://github.com/crazycodeboy/react-native-splash-screen',
         title: 'RN 启动页',
@@ -202,6 +210,28 @@ function Study() {
         imgSrc: cnblogPng,
         linkSrc: 'https://www.cnblogs.com/tsxblog/p/13026649.html',
         title: 'antd mobile图标异常',
+      }, {
+        imgSrc: jianshu,
+        linkSrc: 'https://www.jianshu.com/p/38bcca6a4031',
+        title: 'RN 导航返回刷新',
+        des: 'react navigation 导航自带返回按钮的返回刷新功能',
+      }, {
+        imgSrc: 'https://g.csdnimg.cn/static/logo/favicon32.ico',
+        linkSrc: 'https://blog.csdn.net/qq934235475/article/details/114646848',
+        title: 'RN 缓存清除',
+        des: '【React-Native】couldn‘t find dso to load: libfbjni.so',
+      }, {
+        imgSrc: cnblogPng,
+        linkSrc: 'https://www.cnblogs.com/studyWeb/p/13066224.html',
+        title: 'RN 使用dva',
+      }, {
+        imgSrc: 'https://g.csdnimg.cn/static/logo/favicon32.ico',
+        linkSrc: 'https://blog.csdn.net/sakura55520/article/details/109356277',
+        title: 'RN 集成dva状态管理',
+      }, {
+        imgSrc: jianshu,
+        linkSrc: 'https://www.jianshu.com/p/fd41c3383978',
+        title: 'dva-loading 插件',
       }, {
         imgSrc: 'https://g.csdnimg.cn/static/logo/favicon32.ico',
         linkSrc: 'https://blog.csdn.net/qq_33721382/article/details/108333691',
@@ -258,6 +288,19 @@ function Study() {
         linkSrc: 'https://www.jianshu.com/p/946e3160ea35',
         title: 'AndResGuard瘦身',
         des: 'Android apk瘦身最佳实践(四)：采用AndResGuard进行资源混淆',
+      }, {
+        imgSrc: 'https://services.gradle.org/favicon.ico',
+        linkSrc: 'https://services.gradle.org/distributions/',
+        title: 'Gradle下载'
+      }, {
+        imgSrc: cnblogPng,
+        linkSrc: 'https://www.cnblogs.com/geeksongs/p/11241320.html',
+        title: '更改 SDK, AVD的路径'
+      }, {
+        imgSrc: 'https://g.csdnimg.cn/static/logo/favicon32.ico',
+        linkSrc: 'https://blog.csdn.net/qq_19883981/article/details/108681723',
+        title: '更改 .android 等位置',
+        des: "修改androidstudio在c盘的默认储存位置【.android.gradle.AndroidStudio】"
       }]
     }, {
       key: '7',
