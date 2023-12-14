@@ -148,6 +148,11 @@ function Study() {
         githubSrc: 'https://github.com/wangduanduan/jsplumb-chinese-tutorial',
         title: 'js-plumb中文教程',
       }, {
+        imgSrc: 'https://qishaoxuan.github.io/js_tricks/images/favicon.png',
+        linkSrc: 'https://qishaoxuan.github.io/js_tricks/',
+        githubSrc: 'https://github.com/QiShaoXuan/js_tricks',
+        title: 'JS 常用方法和函数',
+      }, {
         imgSrc: 'https://g.csdnimg.cn/static/logo/favicon32.ico',
         linkSrc: 'https://blog.csdn.net/time__flies_/article/details/72177229',
         title: '弹出窗口拦截解决',
