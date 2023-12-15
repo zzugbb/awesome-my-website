@@ -151,7 +151,7 @@ function Study() {
         imgSrc: 'https://qishaoxuan.github.io/js_tricks/images/favicon.png',
         linkSrc: 'https://qishaoxuan.github.io/js_tricks/',
         githubSrc: 'https://github.com/QiShaoXuan/js_tricks',
-        title: 'JS 常用方法和函数',
+        title: 'JS-tricks 常用函数',
       }, {
         imgSrc: 'https://g.csdnimg.cn/static/logo/favicon32.ico',
         linkSrc: 'https://blog.csdn.net/time__flies_/article/details/72177229',
@@ -185,6 +185,15 @@ function Study() {
         imgSrc: 'https://csscoco.com/inspiration/logo2.png',
         linkSrc: 'https://csscoco.com/inspiration/#/',
         title: 'CSS灵感',
+      }, {
+        imgSrc: 'https://qishaoxuan.github.io/css_tricks/images/favicon.png',
+        linkSrc: 'https://qishaoxuan.github.io/css_tricks/',
+        title: 'CSS-tricks-常用样式',
+        githubSrc: 'https://github.com/QiShaoXuan/css_tricks',
+      }, {
+        imgSrc: 'https://www.freesion.com/images/logo.jpg',
+        linkSrc: 'https://www.freesion.com/article/57201475800/',
+        title: 'CSS 小技巧标签TAG',
       }, {
         imgSrc: webColorPng,
         linkSrc: 'https://www.bootcss.com/p/websafecolors/',
