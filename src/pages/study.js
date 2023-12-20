@@ -195,6 +195,22 @@ function Study() {
         linkSrc: 'https://www.freesion.com/article/57201475800/',
         title: 'CSS 小技巧标签TAG',
       }, {
+        imgSrc: 'https://echeverra.cn/favicon.jpg',
+        linkSrc: 'https://echeverra.cn/css-content',
+        title: 'CSS中content的妙用',
+      }, {
+        imgSrc: cnblogPng,
+        linkSrc: 'https://www.cnblogs.com/CyLee/p/10006065.html',
+        title: 'Vue style 深度选择器',
+      }, {
+        imgSrc: 'http://caibaojian.com/favicon.ico',
+        linkSrc: 'http://caibaojian.com/web-app-rem.html',
+        title: 'rem如何实现自适应?',
+      }, {
+        imgSrc: 'https://www.php.cn/favicon.ico',
+        linkSrc: 'https://www.php.cn/faq/390232.html',
+        title: 'H5手机端页面缩放',
+      }, {
         imgSrc: webColorPng,
         linkSrc: 'https://www.bootcss.com/p/websafecolors/',
         title: 'Web安全色',

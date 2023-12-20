@@ -83,6 +83,11 @@ function Tool() {
         linkSrc: 'https://codecrafters.io/',
         githubSrc: 'https://github.com/codecrafters-io/build-your-own-x',
         title: 'build-x 任何技术',
+      }, {
+        imgSrc: 'https://100px.net/logo.png',
+        linkSrc: 'https://100px.net/',
+        githubSrc: 'https://github.com/buuing/lucky-canvas',
+        title: '各种各样抽奖插件',
       }]
     }, {
       key: 'front-Vscode&chrome',
