@@ -254,6 +254,19 @@ function Study() {
         title: 'RN 导航返回刷新',
         des: 'react navigation 导航自带返回按钮的返回刷新功能',
       }, {
+        imgSrc: 'https://www.jb51.net/favicon.ico',
+        linkSrc: 'https://www.jb51.net/article/220726.htm',
+        title: 'RN 截图保存',
+      }, {
+        imgSrc: 'https://g.csdnimg.cn/static/logo/favicon32.ico',
+        linkSrc: 'https://blog.csdn.net/weixin_38009285/article/details/128938645',
+        title: 'RN 下载分享文件',
+      }, {
+        imgSrc: 'https://react-native-share.github.io/react-native-share/img/community.png',
+        linkSrc: 'https://react-native-share.github.io/react-native-share/',
+        githubSrc: 'https://github.com/react-native-share/react-native-share',
+        title: 'React Native Share',
+      }, {
         imgSrc: 'https://g.csdnimg.cn/static/logo/favicon32.ico',
         linkSrc: 'https://blog.csdn.net/qq934235475/article/details/114646848',
         title: 'RN 缓存清除',
@@ -285,6 +298,10 @@ function Study() {
         linkSrc: 'https://blog.csdn.net/CHZKAL/article/details/106250966',
         title: 'RN 信任管理器',
         des: 'Unable to extract the trust manager on Android10Platform',
+      }, {
+        imgSrc: 'https://reactnative.dev/img/favicon.ico',
+        linkSrc: 'https://reactnative.dev/docs/permissionsandroid',
+        title: 'PermissionsAndroid',
       }, {
         imgSrc: cnblogPng,
         linkSrc: 'https://www.cnblogs.com/fnlingnzb-learner/p/7239614.html',
