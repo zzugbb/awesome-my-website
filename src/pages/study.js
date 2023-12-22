@@ -337,6 +337,11 @@ function Study() {
         linkSrc: 'https://cloud.tencent.com/developer/article/2061240',
         title: '腾讯加固zipalign对齐',
       }, {
+        imgSrc: 'https://static-production.npmjs.com/b0f1a8318363185cc2ea6a40ac23eeb2.png',
+        linkSrc: 'https://www.npmjs.com/package/react-native-signature-id-of-android',
+        title: 'RN-Get-signId-安卓',
+        githubSrc: 'https://github.com/zealleaf/react-native-signature-id-of-android'
+      }, {
         imgSrc: 'https://g.csdnimg.cn/static/logo/favicon32.ico',
         linkSrc: 'https://blog.csdn.net/happy6115/article/details/78732237/',
         title: 'Android完整性校验',

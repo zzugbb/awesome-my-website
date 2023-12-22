@@ -311,6 +311,10 @@ function Tool() {
         linkSrc: 'https://tool.oschina.net/encrypt?type=2',
         title: '在线加密解密',
       }, {
+        imgSrc: 'https://static.base64.guru/img/favicon.ico',
+        linkSrc: 'https://base64.guru/converter/encode/hex',
+        title: 'Hex to Base64',
+      }, {
         imgSrc: 'https://screendump.techulus.com/favicon.ico',
         linkSrc: 'https://screendump.techulus.com/',
         title: '输入网址生成截图',
