@@ -67,6 +67,10 @@ function Study() {
         linkSrc: 'http://react-china.org/t/300-react-nodejs/27165',
         title: '300集前后端视频',
         des: 'React, Nodejs'
+      }, {
+        imgSrc: 'https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/static/favicons/favicon-32x32.png',
+        linkSrc: 'https://juejin.cn/my-course',
+        title: '掘金-我的小册'
       }]
     }, {
       key: '2',
@@ -220,9 +224,25 @@ function Study() {
       href: '#front-react',
       title: 'React',
       subData: [{
+        imgSrc: 'https://bestofreactjs.com/favicon/bestofreactjs/favicon.ico',
+        linkSrc: 'https://bestofreactjs.com/search',
+        title: 'React 资源库',
+      }, {
         imgSrc: 'https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/static/favicons/favicon-32x32.png',
         linkSrc: 'https://juejin.cn/post/7118937685653192735',
         title: 'Hooks 使用大全'
+      }, {
+        imgSrc: 'https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/static/favicons/favicon-32x32.png',
+        linkSrc: 'https://juejin.cn/post/7065099775149867045',
+        title: '从0搭建项目全家桶'
+      }, {
+        imgSrc: cnblogPng,
+        linkSrc: 'https://www.cnblogs.com/sexintercourse/p/16185398.html',
+        title: 'Effect对象&数组依赖'
+      }, {
+        imgSrc: 'https://static.zhihu.com/heifetz/favicon.ico',
+        linkSrc: 'https://zhuanlan.zhihu.com/p/431389907',
+        title: 'router使用指南V6.0.1',
       }, {
         imgSrc: githubPng,
         linkSrc: 'https://github.com/adam-golab/react-developer-roadmap',
