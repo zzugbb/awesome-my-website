@@ -383,6 +383,30 @@ function Study() {
       href: '#front-vue',
       title: 'Vue',
       subData: [{
+        imgSrc: 'https://bestofvue.com/favicon/bestofvue/favicon.ico',
+        linkSrc: 'https://bestofvue.com/search',
+        title: 'Vue 资源库',
+      }, {
+        imgSrc: 'https://nlrx-wjc.github.io/Learn-Vue-Source-Code/logo.png',
+        linkSrc: 'https://nlrx-wjc.github.io/Learn-Vue-Source-Code/',
+        title: '逐行剖析 Vue.js 源码',
+      }, {
+        imgSrc: 'https://g.csdnimg.cn/static/logo/favicon32.ico',
+        linkSrc: 'https://blog.csdn.net/TLROJE787/article/details/96839402',
+        title: 'clearTimeout 失效',
+      }, {
+        imgSrc: cnblogPng,
+        linkSrc: 'https://www.cnblogs.com/blog-zy/p/10155820.html',
+        title: '动态表单并添加验证',
+      }, {
+        imgSrc: jianshu,
+        linkSrc: 'https://www.jianshu.com/p/0b887a1fed07',
+        title: 'vue-router刷新页面',
+      }, {
+        imgSrc: 'https://g.csdnimg.cn/static/logo/favicon32.ico',
+        linkSrc: 'https://blog.csdn.net/weixin_45140661/article/details/90898558',
+        title: 'el-select嵌套tree控件',
+      }, {
         imgSrc: githubPng,
         linkSrc: 'https://github.com/simple-uploader/Uploader/blob/develop/README_zh-CN.md',
         title: 'simple-uploader',
