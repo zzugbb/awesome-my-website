@@ -88,6 +88,10 @@ function Deploy() {
       href: '#linux-nginx-docker-k8s',
       title: 'Linux&Nginx&Docker&K8s',
       subData: [{
+        imgSrc: 'https://res.cloudinary.com/incoder/image/upload/v1525515979/favicon-16x16.png',
+        linkSrc: 'https://incoder.org/2018/05/15/linux-build/',
+        title: 'Linux 常用应用安装',
+      }, {
         imgSrc: 'https://www.explainshell.com/static/img/shell.png',
         linkSrc: 'https://www.explainshell.com/',
         title: 'Shell命令可视化解释',
