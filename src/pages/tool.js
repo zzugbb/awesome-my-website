@@ -381,6 +381,18 @@ function Tool() {
         linkSrc: 'https://smashinghub.com/10-best-html5-audio-players.htm',
         title: 'H5 Audio Player 精选',
         des: '10 Best HTML5 Audio Players',
+      }, {
+        imgSrc: 'https://static-production.npmjs.com/b0f1a8318363185cc2ea6a40ac23eeb2.png',
+        linkSrc: 'https://www.npmjs.com/package/react-flv-player',
+        title: 'react-flv-player',
+      }, {
+        imgSrc: 'https://g.csdnimg.cn/static/logo/favicon32.ico',
+        linkSrc: 'https://blog.csdn.net/u012961419/article/details/120491439',
+        title: '实时视频(hls http-flv)',
+      }, {
+        imgSrc: 'https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/static/favicons/favicon-32x32.png',
+        linkSrc: 'https://juejin.cn/post/7038549057177911327',
+        title: '前端视频监控直播',
       }]
     }, {
       key: 'front-template',

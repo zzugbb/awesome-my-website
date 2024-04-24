@@ -403,6 +403,28 @@ function Study() {
       href: '#front-react-native-ios',
       title: 'React Native IOS',
       subData: [{
+        imgSrc: 'https://static-production.npmjs.com/b0f1a8318363185cc2ea6a40ac23eeb2.png',
+        linkSrc: 'https://www.npmjs.com/package/react-native-view-shot',
+        title: 'view-shot-截屏',
+      }, {
+        imgSrc: 'https://static-production.npmjs.com/b0f1a8318363185cc2ea6a40ac23eeb2.png',
+        linkSrc: 'https://www.npmjs.com/package/@react-native-camera-roll/camera-roll',
+        title: 'camera-roll-保存相册',
+      }, {
+        imgSrc: 'https://static-production.npmjs.com/b0f1a8318363185cc2ea6a40ac23eeb2.png',
+        linkSrc: 'https://www.npmjs.com/package/react-native-share',
+        title: 'share-分享',
+      }, {
+        imgSrc: 'https://static-production.npmjs.com/b0f1a8318363185cc2ea6a40ac23eeb2.png',
+        linkSrc: 'https://www.npmjs.com/package/rn-fetch-blob',
+        title: 'rn-fetch-blob-下载',
+      }, {
+        imgSrc: 'https://static-production.npmjs.com/b0f1a8318363185cc2ea6a40ac23eeb2.png',
+        linkSrc: 'https://www.npmjs.com/package/react-native-vision-camera',
+        homeSrc: "https://react-native-vision-camera.com/docs/guides/code-scanning",
+        exampleSrc: 'https://github.com/mrousavy/react-native-vision-camera/blob/main/package/example/src/CodeScannerPage.tsx',
+        title: 'vision-camera-扫描',
+      }, {
         imgSrc: cnblogPng,
         linkSrc: 'https://www.cnblogs.com/tig666666/p/6632226.html',
         title: 'iOS 10 适配 ATS'
