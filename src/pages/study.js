@@ -571,6 +571,23 @@ function Study() {
         title: 'Axial3d 轴动效果',
       }]
     }, {
+      key: 'front-wasm',
+      href: '#front-wasm',
+      title: 'Wasm',
+      subData: [{
+        imgSrc: jianshu,
+        linkSrc: 'https://www.jianshu.com/p/f7d98c422e0c',
+        title: 'WebAssembly',
+      }, {
+        imgSrc: 'https://static.zhihu.com/heifetz/favicon.ico',
+        linkSrc: 'https://zhuanlan.zhihu.com/p/620767652',
+        title: 'WASM原理剖析',
+      }, {
+        imgSrc: 'https://www.baidu.com/favicon.ico?t=20171027',
+        linkSrc: 'https://baijiahao.baidu.com/s?id=1779833448991571994',
+        title: 'WASM前端新引擎',
+      }]
+    }, {
       key: 'front-Electron',
       href: '#front-Electron',
       title: 'Electron',

@@ -90,6 +90,23 @@ function Tool() {
         title: '各种各样抽奖插件',
       }]
     }, {
+      key: 'front-AI',
+      href: '#front-AI',
+      title: 'AI-内容助手',
+      subData: [{
+        imgSrc: 'https://img.alicdn.com/imgextra/i4/O1CN01FOwagl1XBpyVA2QVy_!!6000000002886-2-tps-512-512.png',
+        linkSrc: 'https://tongyi.aliyun.com/qianwen/',
+        title: '通义千问',
+      }, {
+        imgSrc: 'https://statics.moonshot.cn/kimi-chat/favicon.ico',
+        linkSrc: 'https://kimi.moonshot.cn/',
+        title: 'Kimi.ai',
+      }, {
+        imgSrc: '',
+        linkSrc: 'https://hello-ai.anzz.top/home/FreeChatGPTSiteList.html',
+        title: '免费ChatGPT网站',
+      }]
+    }, {
       key: 'front-Vscode&chrome',
       href: '#front-Vscode&chrome',
       title: 'Vscode&Chrome',
