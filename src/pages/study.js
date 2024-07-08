@@ -180,6 +180,11 @@ function Study() {
         imgSrc: cnblogPng,
         linkSrc: 'https://www.cnblogs.com/shenjp/p/6958710.html',
         title: '获取浏览器内核版本',
+      }, {
+        imgSrc: jianshu,
+        linkSrc: 'https://www.jianshu.com/p/4d115d71d03a',
+        title: 'sessionStorage失效',
+        des: "解决右键打开新的标签页，sessionStorage失效",
       }]
     }, {
       key: '4',
@@ -251,6 +256,11 @@ function Study() {
         imgSrc: githubPng,
         linkSrc: 'https://github.com/bchao1/chart-race-react',
         title: '排序竞赛组件',
+      }, {
+        imgSrc: 'https://avatars.githubusercontent.com/u/8445?s=48&v=4',
+        linkSrc: 'https://zpao.github.io/qrcode.react/',
+        githubSrc: 'https://github.com/zpao/qrcode.react',
+        title: '二维码自定义生成',
       }]
     }, {
       key: '6',
