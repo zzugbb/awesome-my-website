@@ -446,6 +446,14 @@ function Study() {
         imgSrc: 'https://g.csdnimg.cn/static/logo/favicon32.ico',
         linkSrc: 'https://blog.csdn.net/qq_33721382/article/details/108588015',
         title: 'iOS跳过SSL证书认证'
+      }, {
+        imgSrc: 'https://g.csdnimg.cn/static/logo/favicon32.ico',
+        linkSrc: 'https://blog.csdn.net/qq_24694139/article/details/135503828',
+        title: 'iOS上架资料填写'
+      }, {
+        imgSrc: 'https://static.zhihu.com/heifetz/favicon.ico',
+        linkSrc: 'https://zhuanlan.zhihu.com/p/162156361',
+        title: 'iOS上架隐私政策',
       }]
     }, {
       key: '7',
