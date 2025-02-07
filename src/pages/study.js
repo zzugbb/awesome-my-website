@@ -71,6 +71,10 @@ function Study() {
         imgSrc: 'https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/static/favicons/favicon-32x32.png',
         linkSrc: 'https://juejin.cn/my-course',
         title: '掘金-我的小册'
+      }, {
+        imgSrc: 'https://static.zhihu.com/heifetz/favicon.ico',
+        linkSrc: 'https://www.zhihu.com/question/49964363',
+        title: '单向绑定和双向绑定',
       }]
     }, {
       key: '2',
@@ -261,6 +265,22 @@ function Study() {
         linkSrc: 'https://zpao.github.io/qrcode.react/',
         githubSrc: 'https://github.com/zpao/qrcode.react',
         title: '二维码自定义生成',
+      }, {
+        imgSrc: 'https://www.jb51.net/favicon.ico',
+        linkSrc: 'https://www.jb51.net/article/139879.htm',
+        title: '路由登陆验证控制',
+      }, {
+        imgSrc: 'https://g.csdnimg.cn/static/logo/favicon32.ico',
+        linkSrc: 'https://blog.csdn.net/sanstu/article/details/80080002',
+        title: '子组件取不到history',
+      }, {
+        imgSrc: 'https://ricostacruz.com/favicon.ico',
+        linkSrc: 'https://ricostacruz.com/nprogress/',
+        title: 'NProgress.js',
+      }, {
+        imgSrc: cnblogPng,
+        linkSrc: 'https://www.cnblogs.com/monkeySoft/p/13048072.html',
+        title: 'NProgress应用',
       }]
     }, {
       key: '6',

@@ -43,6 +43,10 @@ function Life() {
         imgSrc: 'https://static.unicef.cn/ecare/2021/ring.png?v=2',
         linkSrc: 'https://ecare.unicef.cn/cn/pledge/WB181#_ga=2.169624737.1220887211.1645104057-1788798546.1645104057',
         title: '联合国基金会-戒指',
+      }, {
+        imgSrc: 'https://www.kangxizidian.com.cn/favicon.ico',
+        linkSrc: 'https://www.kangxizidian.com.cn/search/',
+        title: '康熙字典免费查字',
       }]
     }, {
       key: 'Work is not all',
@@ -61,6 +65,10 @@ function Life() {
         linkSrc: 'https://996.icu/#/zh_CN',
         githubSrc: 'https://github.com/996icu/996.ICU',
         title: '996 ICU',
+      }, {
+        imgSrc: 'https://www.yckceo.com/favicon.ico',
+        linkSrc: 'https://www.yckceo.com/',
+        title: '阅读开源仓库',
       }]
     }, {
       key: 'game',

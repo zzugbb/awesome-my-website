@@ -105,6 +105,14 @@ function Tool() {
         imgSrc: '',
         linkSrc: 'https://hello-ai.anzz.top/home/FreeChatGPTSiteList.html',
         title: '免费ChatGPT网站',
+      }, {
+        imgSrc: 'https://chat.deepseek.com/favicon.svg',
+        linkSrc: 'https://chat.deepseek.com/',
+        title: 'DeepSeek',
+      }, {
+        imgSrc: 'https://cdn.oaistatic.com/assets/favicon-miwirzcw.ico',
+        linkSrc: 'https://chatgpt.com/',
+        title: 'ChatGpt',
       }]
     }, {
       key: 'front-Vscode&chrome',
