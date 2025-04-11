@@ -122,6 +122,10 @@ function Study() {
         imgSrc: 'https://formidable.com/open-source/victory/favicon/favicon.ico',
         linkSrc: 'https://formidable.com/open-source/victory/docs/native',
         title: 'victory-native',
+      }, {
+        imgSrc: 'https://visjs.org/images/favicon.ico',
+        linkSrc: 'https://visjs.org/',
+        title: 'visjs-网络拓扑',
       }]
     }, {
       key: '3',
@@ -281,6 +285,14 @@ function Study() {
         imgSrc: cnblogPng,
         linkSrc: 'https://www.cnblogs.com/monkeySoft/p/13048072.html',
         title: 'NProgress应用',
+      }, {
+        imgSrc: 'https://static-production.npmjs.com/b0f1a8318363185cc2ea6a40ac23eeb2.png',
+        linkSrc: 'https://www.npmjs.com/package/react-draggable',
+        title: 'react-draggable-拖拽',
+      }, {
+        imgSrc: 'https://praneshravi.in/react-diff-viewer/icons-5cca7c970a071239af58d7df2e9eb21b/apple-touch-icon-60x60.png',
+        linkSrc: 'https://praneshravi.in/react-diff-viewer/',
+        title: 'React Diff Viewer对比',
       }]
     }, {
       key: '6',
