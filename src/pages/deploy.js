@@ -67,6 +67,19 @@ function Deploy() {
         title: 'theme-bmw',
       }]
     }, {
+      key: 'Vercel',
+      href: '#Vercel',
+      title: 'Vercel',
+      subData: [{
+        imgSrc: 'https://assets.vercel.com/image/upload/front/favicon/vercel/favicon.ico',
+        linkSrc: 'https://vercel.com/',
+        title: 'Vercel官网',
+      }, {
+        imgSrc: 'https://g.csdnimg.cn/static/logo/favicon32.ico',
+        linkSrc: 'https://ryuk17.blog.csdn.net/article/details/155420143',
+        title: 'stats 部署 Vercel',
+      }]
+    }, {
       key: 'GitBook',
       href: '#GitBook',
       title: 'GitBook',

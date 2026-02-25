@@ -24,6 +24,10 @@ function Tool() {
         linkSrc: 'https://github.com/anuraghazra/github-readme-stats',
         title: 'Readme Stats 装饰',
       }, {
+        imgSrc: 'https://streak-stats.demolab.com/demo/favicon-32x32.png',
+        linkSrc: 'https://github.com/DenverCoder1/github-readme-streak-stats',
+        title: 'Streak Stats 装饰',
+      }, {
         imgSrc: 'https://shields.io/img/favicon.ico',
         linkSrc: 'https://shields.io/',
         githubSrc: 'https://github.com/badges/shields',

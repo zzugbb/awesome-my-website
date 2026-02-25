@@ -26,6 +26,10 @@ function TopLayout() {
     navigate('/' + e);
   }
 
+  const handleClickLogo = (e) => {
+    navigate('/');
+  }
+
   return (
     <div className='top-div'>
       <a href="https://github.com/zzugbb" target="_blank" rel="noreferrer" style={{position:'fixed', right: 0, top:0, zIndex: 9999}}>
@@ -34,7 +38,7 @@ function TopLayout() {
           alt="Fork me on GitHub" loading="lazy" data-recalc-dims="1"/>
       </a>
       <div className='top-div-main'>
-        <div className='logo-div'>
+        <div className='logo-div' onClick={() => handleClickLogo()} style={{cursor:'pointer'}}>
           <img src={logo} alt="logo" style={{height:60,margin:2}}/>
         </div>
         <ul className='top-ul'>
