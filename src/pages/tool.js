@@ -96,8 +96,12 @@ function Tool() {
     }, {
       key: 'front-AI',
       href: '#front-AI',
-      title: 'AI-内容助手',
+      title: 'AI',
       subData: [{
+        imgSrc: 'https://ai-bot.cn/wp-content/uploads/2023/07/ai-bot-favicon.png',
+        linkSrc: 'https://ai-bot.cn/',
+        title: 'AI工具集',
+      }, {
         imgSrc: 'https://img.alicdn.com/imgextra/i4/O1CN01FOwagl1XBpyVA2QVy_!!6000000002886-2-tps-512-512.png',
         linkSrc: 'https://tongyi.aliyun.com/qianwen/',
         title: '通义千问',
@@ -340,6 +344,14 @@ function Tool() {
         linkSrc: 'https://tool.oschina.net/encrypt?type=2',
         title: '在线加密解密',
       }, {
+        imgSrc: 'https://www.iamwawa.cn/Public/img/favicon.png',
+        linkSrc: 'https://www.iamwawa.cn/',
+        title: '在线转换工具',
+      }, {
+        imgSrc: 'https://webfem.com/favicon.ico',
+        linkSrc: 'https://webfem.com/tools/crc/index.html',
+        title: 'CRC 校验工具',
+      }, {
         imgSrc: 'https://static.base64.guru/img/favicon.ico',
         linkSrc: 'https://base64.guru/converter/encode/hex',
         title: 'Hex to Base64',
@@ -377,6 +389,19 @@ function Tool() {
         imgSrc: 'https://www.bejson.com/favicon.ico',
         linkSrc: 'https://www.bejson.com/jsonviewernew/',
         title: 'JSON在线查看编辑',
+      }]
+    }, {
+      key: 'front-专利',
+      href: '#front-专利',
+      title: '专利相关',
+      subData: [{
+        imgSrc: 'https://www.cnipa.gov.cn/favicon.ico',
+        linkSrc: 'http://epub.cnipa.gov.cn/',
+        title: '国家知识产权',
+      }, {
+        imgSrc: 'https://www.baiten.cn/images/app/circle_bg.png',
+        linkSrc: 'https://www.baiten.cn/app/',
+        title: '佰腾网',
       }]
     }, {
       key: 'front-regex',

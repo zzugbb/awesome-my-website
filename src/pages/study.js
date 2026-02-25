@@ -594,6 +594,10 @@ function Study() {
         githubSrc: 'https://github.com/mrdoob/three.js',
         title: 'Three.js',
       }, {
+        imgSrc: 'https://threejs-learning.com/favicon.ico',
+        linkSrc: 'https://threejs-learning.com/zh/',
+        title: 'Three.js指南',
+      }, {
         imgSrc: 'http://www.webgl3d.cn/img/favicon.ico',
         linkSrc: 'http://www.webgl3d.cn/',
         title: 'Three.js中文网',
