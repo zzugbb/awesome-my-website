@@ -5,6 +5,7 @@ import rapPng from '../asset/img/rap-logo.png';
 import githubPng from '../asset/img/github-logo.png';
 import cnblogPng from '../asset/img/cnblog.ico';
 import jianshu from '../asset/img/jianshu.ico';
+import latex from '../asset/img/latex.png';
 
 function Tool() {
 
@@ -402,6 +403,14 @@ function Tool() {
         imgSrc: 'https://www.baiten.cn/images/app/circle_bg.png',
         linkSrc: 'https://www.baiten.cn/app/',
         title: '佰腾网',
+      }, {
+        imgSrc: latex,
+        linkSrc: 'https://www.latexlive.com/##',
+        title: 'LaTeX编辑器',
+      }, {
+        imgSrc: 'https://mermaid.live/favicon.svg',
+        linkSrc: 'https://mermaid.live/edit',
+        title: 'mermaid画图',
       }]
     }, {
       key: 'front-regex',

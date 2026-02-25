@@ -69,6 +69,10 @@ function Life() {
         imgSrc: 'https://www.yckceo.com/favicon.ico',
         linkSrc: 'https://www.yckceo.com/',
         title: '阅读开源仓库',
+      }, {
+        imgSrc: 'https://g.csdnimg.cn/static/logo/favicon32.ico',
+        linkSrc: 'https://blog.csdn.net/Blame1144371866/article/details/133700253',
+        title: '腹灵FL980说明书',
       }]
     }, {
       key: 'game',
